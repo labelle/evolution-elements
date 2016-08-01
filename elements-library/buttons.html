@@ -1,0 +1,76 @@
+<main-nav data-ui-view="nav" ng-cloak></main-nav>
+
+<div class="container">
+
+  <div class="row" ng-controller="pageslideController">
+  <div class="col-xs-1">
+    <div class="evo-space"></div>
+    <a href="#/elements-library#inputs" class="no-wrap">elements library</a>
+  </div>
+<!--   <div class="col-xs-1 breadcrumb-elements">
+    <div ncy-breadcrumb></div>
+  </div> -->
+
+  <div class="evo-space-smallest"></div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12">
+      <h2 class="evo-header-biggest evo-no-line">Buttons</h2>
+      <div class="evo-space-smallest"></div>
+    </div>
+<!--     <div class="evo-space-20"></div> -->
+  </div>
+
+<!-- <div class="evo-line-3"></div>
+
+ <div class="evo-space-30"></div>
+ -->
+
+ <div class="row">
+  <div class="col-xs-12 col-sm-10 col-md-8">
+    <p class="evo-text-intro">Button elements correspond to matching text sizes and styles. By default, the box outline is heavier with large sizes, and no background or text colors are specified.</p>
+  </div>
+ </div>
+
+
+<div class="evo-space"></div>
+
+<div class="evo-line-thin"></div>
+
+ <div class="evo-space-small"></div>
+
+  <div class="row">
+    <div class="col-xs-12">
+      <h2 class="evo-header-big" id="neutral-colors">evo-button</h2>
+      <div class="evo-space-smallest"></div>
+    </div>
+  </div>
+
+  <div class="row" ng-controller="RangeController">
+    <div class="evo-space-smallest"></div>
+    <div ng-repeat="n in range(30,1)">
+      <div class="col-md-3 give_spec">
+        <div class="annotation">evo-button-{{ n }}</div>
+        <a href=""><span class="evo-button-{{ n }}" disable>submit</span></a>
+      </div>
+      <div class="col-md-3 give_spec">
+        <div class="annotation">evo-button-{{ n }}-bold</div>
+        <a href=""><span class="evo-button-{{ n }}-bold" disable>submit</span></a>
+      </div>
+       <div class="col-md-3 give_spec">
+        <div class="annotation">evo-button-{{ n }}-caps</div>
+        <a href=""><span class="evo-button-{{ n }}-caps" disable>submit</span></a>
+      </div>
+       <div class="col-md-3 give_spec">
+        <div class="annotation">evo-button-{{ n }}-bold-caps</div>
+        <a href=""><span class="evo-button-{{ n }}-bold-caps" disable>submit</span></a>
+      </div>
+    </div>
+
+    <div class="evo-space-biggest"></div>
+    <back-top scroll-speed=1600></back-top>
+  </div>
+
+</div> <!-- container -->
+

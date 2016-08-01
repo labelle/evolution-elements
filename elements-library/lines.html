@@ -1,0 +1,292 @@
+<main-nav data-ui-view="nav" ng-cloak></main-nav>
+
+<div class="container">
+
+
+  <div class="row" ng-controller="pageslideController">
+  <div class="col-xs-1">
+    <div class="evo-space"></div>
+    <a href="#/elements-library#layout" class="no-wrap">elements library</a>
+  </div>
+<!--   <div class="col-xs-1 breadcrumb-elements">
+    <div ncy-breadcrumb></div>
+  </div> -->
+  <div class="evo-space-smallest"></div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12">
+      <h2 class="evo-header-biggest evo-no-line">Lines</h2>
+      <div class="evo-space-smallest"></div>
+    </div>
+  </div>
+
+ <div class="row">
+  <div class="col-xs-12 col-sm-10 col-md-8">
+    <p class="evo-text-intro">Use these CSS divider lines and border boxes to help keep the UI clean and consistent.</p>
+  </div>
+ </div>
+
+
+<div class="evo-space"></div>
+
+<div class="evo-line-thin"></div>
+
+ <div class="evo-space-small"></div>
+
+  <div class="row">
+    <div class="col-xs-12">
+      <h2 class="evo-header-big" id="neutral-colors">evo-line</h2>
+      <div class="evo-space-small"></div>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col-xs-12">
+      <h2 class="evo-header" id="lines">Lines</h2>
+    </div>
+    <div class="evo-space-10"></div>
+  </div>
+
+  <div class="row" ng-controller="RangeController">
+    <div ng-repeat="n in range(10,1)">
+
+      <div class="col-xs-12 col-sm-4 give_spec">
+        <div class="annotation">evo-line-{{ n }}</div>
+        <div class="evo-line-{{ n }} evo-line-handle"></div>
+      </div>
+
+      <div class="col-xs-12 col-sm-4 give_spec">
+        <div class="annotation">evo-line-{{ n }}-dots</div>
+        <div class="evo-line-{{ n }}-dots evo-line-handle"></div>
+      </div>
+
+      <div class="col-xs-12 col-sm-4 give_spec">
+        <div class="annotation">evo-line-{{ n }}-dash</div>
+        <div class="evo-line-{{ n }}-dash evo-line-handle"></div>
+      </div>
+
+    </div>
+
+  <div class="evo-space-20"></div>
+
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12">
+      <h2 class="evo-header-bigger" id="borders">evo-border</h2>
+    </div>
+
+    <div class="evo-space-10"></div>
+
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12">
+      <h2 class="evo-header evo-no-line">Top Border</h2>
+    </div>
+  </div>
+
+  <div class="row" ng-controller="RangeController">
+    <div ng-repeat="n in range(10,1)">
+
+      <div class="col-xs-12 col-sm-4 give_spec">
+        <div class="annotation">evo-border-{{ n }}-top</div>
+        <div class="evo-border-{{ n }}-top evo-border-handle evo-dark-20-bg"></div>
+      </div>
+
+      <div class="col-xs-12 col-sm-4 give_spec">
+        <div class="annotation">evo-border-{{ n }}-top-dots</div>
+        <div class="evo-border-{{ n }}-top-dots evo-border-handle evo-dark-20-bg"></div>
+      </div>
+
+      <div class="col-xs-12 col-sm-4 give_spec">
+        <div class="annotation">evo-border-{{ n }}-top-dash</div>
+        <div class="evo-border-{{ n }}-top-dash evo-border-handle evo-dark-20-bg"></div>
+      </div>
+
+    </div>
+  
+  <div class="evo-space-10"></div>
+
+  </div>
+
+
+  <div class="row">
+    <div class="col-xs-12">
+      <h2 class="evo-header evo-no-line">Bottom Border</h2>
+    </div>
+  </div>
+
+
+    <div class="row" ng-controller="RangeController">
+    <div ng-repeat="n in range(10,1)">
+
+      <div class="col-xs-12 col-sm-4 give_spec">
+        <div class="annotation">evo-border-{{ n }}-bottom</div>
+        <div class="evo-border-{{ n }}-bottom evo-border-handle evo-dark-20-bg"></div>
+      </div>
+
+      <div class="col-xs-12 col-sm-4 give_spec">
+        <div class="annotation">evo-border-{{ n }}-bottom-dots</div>
+        <div class="evo-border-{{ n }}-bottom-dots evo-border-handle evo-dark-20-bg"></div>
+      </div>
+
+      <div class="col-xs-12 col-sm-4 give_spec">
+        <div class="annotation">evo-border-{{ n }}-bottom-dash</div>
+        <div class="evo-border-{{ n }}-bottom-dash evo-border-handle evo-dark-20-bg"></div>
+      </div>
+
+    </div>
+  
+    <div class="evo-space-20"></div>
+
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12">
+      <h2 class="evo-header-bigger" id="boxes">evo-box</h2>
+    </div>
+    <div class="evo-space-10"></div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12">
+      <h2 class="evo-header evo-no-line">Solid</h2>
+    </div>
+  </div>
+
+  <div class="row" ng-controller="RangeController">
+    <div ng-repeat="n in range(10,1)">
+
+      <div class="col-xs-12 give_spec">
+        <div class="annotation">evo-box-{{ n }}</div>
+        <div class="evo-box-{{ n }} evo-box-handle"></div>
+      </div>
+
+    </div>
+
+  <div class="evo-space-10"></div>
+
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12">
+      <h2 class="evo-header evo-no-line">Dotted</h2>
+    </div>
+  </div>
+
+  <div class="row" ng-controller="RangeController">
+    <div ng-repeat="n in range(10,1)">
+
+      <div class="col-xs-12 give_spec">
+        <div class="annotation">evo-box-{{ n }}-dots</div>
+        <div class="evo-box-{{ n }}-dots evo-box-handle"></div>
+      </div>
+
+    </div>
+  
+  <div class="evo-space-10"></div>
+
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12">
+      <h2 class="evo-header evo-no-line">Dashed</h2>
+    </div>
+  </div>
+
+
+  <div class="row" ng-controller="RangeController">
+    <div ng-repeat="n in range(10,1)">
+
+      <div class="col-xs-12 give_spec">
+        <div class="annotation">evo-box-{{ n }}-dash</div>
+        <div class="evo-box-{{ n }}-dash evo-box-handle"></div>
+      </div>
+
+    </div>
+  
+  <div class="evo-space-10"></div>
+
+  </div>
+
+
+  <div class="row">
+    <div class="col-xs-12">
+      <h2 class="evo-header evo-no-line">Double</h2>
+    </div>
+  </div>
+
+  <div class="row" ng-controller="RangeController">
+
+    <div ng-repeat="n in range(10,8)">
+
+    <div class="col-xs-12 give_spec">
+        <div class="annotation">evo-box-{{ n }}-double</div>
+        <div class="evo-box-{{ n }}-double evo-box-handle-bigger"></div>
+      </div>
+    </div>
+
+    <div ng-repeat="n in range(7,5)">
+
+      <div class="col-xs-12 give_spec">
+        <div class="annotation">evo-box-{{ n }}-double</div>
+        <div class="evo-box-{{ n }}-double evo-box-handle-big"></div>
+      </div>
+    </div>
+
+    <div ng-repeat="n in range(4,1)">
+
+      <div class="col-xs-12 give_spec">
+        <div class="annotation">evo-box-{{ n }}-double</div>
+        <div class="evo-box-{{ n }}-double evo-box-handle"></div>
+      </div>
+    </div>
+  
+  <div class="evo-space-biggest"></div>
+  <back-top scroll-speed=1600></back-top>
+  </div>
+
+</div> <!-- container -->  
+
+  <!-- <div class="row">
+    <div class="col-xs-12">
+      <h2 class="evo-header evo-no-line">Inset</h2>
+    </div>
+  </div>
+
+  <div class="row" ng-controller="RangeController">
+    <div ng-repeat="n in range(10,1)">
+
+      <div class="col-xs-12 give_spec">
+        <div class="annotation">evo-box-{{ n }}-inset</div>
+        <div class="evo-box-{{ n }}-inset evo-box-handle"></div>
+      </div>
+
+    </div>
+
+  <div class="evo-space-10"></div>
+
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12">
+      <h2 class="evo-header evo-no-line">Outset</h2>
+    </div>
+  </div>
+
+  <div class="row" ng-controller="RangeController">
+    <div ng-repeat="n in range(10,1)">
+
+      <div class="col-xs-12 give_spec">
+        <div class="annotation">evo-box-{{ n }}-outset</div>
+        <div class="evo-box-{{ n }}-outset evo-box-handle"></div>
+      </div>
+
+    </div>
+
+    <div class="evo-space-20"></div>
+    <back-top scroll-speed=1600></back-top>
+  </div> -->

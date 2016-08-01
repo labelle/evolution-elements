@@ -1,0 +1,80 @@
+<main-nav data-ui-view="nav" ng-cloak></main-nav>
+
+<div class="container">
+
+  <div class="row">
+  <div class="col-xs-1" ng-controller="pageslideController">
+    <div class="evo-space"></div>
+    <a href="#/elements-library#layout" class="no-wrap">elements library</a>
+  </div>
+<!--   <div class="col-xs-1 breadcrumb-elements">
+    <div ncy-breadcrumb></div>
+  </div> -->
+  <div class="evo-space-smallest"></div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12">
+      <h2 class="evo-header-biggest evo-no-line">Spacers</h2>
+      <div class="evo-space-smallest"></div>
+    </div>
+<!--     <div class="evo-space-10"></div> -->
+  </div>
+
+<!--   <div class="row">
+    <div class="col-xs-12">
+      <h2 class="evo-header-20"></h2>
+    </div>
+    <div class="evo-space-5"></div>
+  </div> -->
+
+ <div class="row">
+  <div class="col-xs-12 col-sm-10 col-md-8">
+    <p class="evo-text-intro">Transparent block elements for inserting vertical space between elements. While performing design QA, use a simple background color class to reveal them.</p>
+  </div>
+ </div>
+
+
+ <div class="evo-space"></div>
+
+ <div class="evo-line-thin"></div>
+
+ <div class="evo-space-small"></div>
+
+
+  <div class="row">
+    <div class="col-xs-12">
+      <h2 class="evo-header-big" id="neutral-colors">evo-space</h2>
+      <div class="evo-space-smallest"></div>
+    </div>
+  </div>
+
+
+  <div class="row">
+  <div class="col-xs-12">
+    <div class="evo_divs">
+
+      <div class="evo-form-checkbox-small">
+        <input type="checkbox" id="outline" ng-click="toggleOutline = !toggleOutline" checked><label for="outline">show outlines</label>
+      </div>
+      
+      <div class="evo-space-small"></div>
+
+    </div>
+
+    <div class="div_cont" ng-controller="RangeController">
+      <span class="annotation" ng-repeat="n in range(30,1,1)">evo-space-{{ n }}
+      <div class="evo-space-{{ n }}" ng-class="{'divider_outline': !toggleOutline}"></div></span>
+      <div class="evo-space-10"></div>
+    </div>
+
+  </div>
+
+  <div class="evo-space-biggest"></div>
+
+</div>
+
+</div> <!-- container -->
+
+
+    

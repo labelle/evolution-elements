@@ -1,0 +1,404 @@
+<main-nav data-ui-view="nav" ng-cloak></main-nav>
+
+<div class="container">
+
+  <div class="row" ng-controller="pageslideController">
+  <div class="col-xs-1">
+    <div class="evo-space"></div>
+    <a href="#/elements-library#inputs" class="no-wrap">elements library</a>
+  </div>
+<!--   <div class="col-xs-1 breadcrumb-elements">
+    <div ncy-breadcrumb></div>
+  </div> -->
+  <div class="evo-space-smallest"></div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12">
+      <h2 class="evo-header-biggest evo-no-line">Forms</h2>
+      <div class="evo-space-smallest"></div>
+    </div>
+  </div>
+
+ <div class="row">
+  <div class="col-xs-12 col-sm-10 col-md-8">
+    <p class="evo-text-intro">(Beta) Form input elements correspond to matching text sizes. Best used for rapid prototypes. By default, input fields have white backgrounds.</p>
+  </div>
+ </div>
+
+
+<div class="evo-space"></div>
+
+<div class="evo-line-thin"></div>
+
+ <div class="evo-space-small"></div>
+
+
+<!--   <div class="row">
+    <div class="col-xs-12">
+      <h2 class="evo-header-big" id="neutral-colors">evo-form</h2>
+      <div class="evo-space-smallest"></div>
+    </div>
+  </div> -->
+
+
+
+  <h2 class="evo-header-bigger">evo-form</h2>
+
+  <div class="evo-space-10"></div>
+
+  <h2 class="evo-header">Text Input</h2>
+
+  <div class="evo-space-10"></div>
+
+  <div class="row" ng-controller="RangeController">
+    <div ng-repeat="n in range(30,1)">
+      <div class="col-xs-12 col-sm-7">
+        <div class="annotation">evo-form-{{ n }}-text</div>
+          <div class="evo-form-{{ n }}-text">
+            <input type="text" placeholder="Text">
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="evo-space-20"></div>
+
+  <h2 class="evo-header">Dropdown Menu</h2>
+
+  <div class="evo-space-10"></div>
+
+  <div class="row" ng-controller="RangeController">
+    <div ng-repeat="n in range(30,1)">
+      <div class="col-xs-12 col-sm-7">
+        <div class="annotation">evo-form-{{ n }}-dropdown</div>
+          <div class="evo-form-{{ n }}-text">
+            <select>
+                <option>
+                  Option 01
+                </option>
+
+                <option>
+                  Option 02
+                </option>
+              </select>
+          </div>
+        </div>
+    </div>
+  </div>
+
+
+    <div class="evo-space-20"></div>
+
+
+  <h2 class="evo-header">Checkbox Buttons</h2>
+
+  <div class="evo-space-10"></div>
+
+  <div class="row" ng-controller="RangeController">
+    <div ng-repeat="n in range(30,28)">
+      <div class="col-xs-12 col-sm-4">
+        <div class="annotation">evo-form-{{ n }}-checkbox</div>
+          <div class="evo-form-{{ n }}-checkbox">
+            <input type="checkbox" id="checkbox{{ n }}"><label for="checkbox{{ n }}">Item</label>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="row" ng-controller="RangeController">
+    <div ng-repeat="n in range(27,25)">
+      <div class="col-xs-12 col-sm-4">
+        <div class="annotation">evo-form-{{ n }}-checkbox</div>
+          <div class="evo-form-{{ n }}-checkbox">
+            <input type="checkbox" id="checkbox{{ n }}"><label for="checkbox{{ n }}">Item</label>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="row" ng-controller="RangeController">
+    <div ng-repeat="n in range(24,22)">
+      <div class="col-xs-12 col-sm-4">
+        <div class="annotation">evo-form-{{ n }}-checkbox</div>
+          <div class="evo-form-{{ n }}-checkbox">
+            <input type="checkbox" id="checkbox{{ n }}"><label for="checkbox{{ n }}">Item</label>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="row" ng-controller="RangeController">
+    <div ng-repeat="n in range(21,19)">
+      <div class="col-xs-12 col-sm-4">
+        <div class="annotation">evo-form-{{ n }}-checkbox</div>
+          <div class="evo-form-{{ n }}-checkbox">
+            <input type="checkbox" id="checkbox{{ n }}"><label for="checkbox{{ n }}">Item</label>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="row" ng-controller="RangeController">
+    <div ng-repeat="n in range(18,16)">
+      <div class="col-xs-12 col-sm-4">
+        <div class="annotation">evo-form-{{ n }}-checkbox</div>
+          <div class="evo-form-{{ n }}-checkbox">
+            <input type="checkbox" id="checkbox{{ n }}"><label for="checkbox{{ n }}">Item</label>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="row" ng-controller="RangeController">
+    <div ng-repeat="n in range(15,13)">
+      <div class="col-xs-12 col-sm-4">
+        <div class="annotation">evo-form-{{ n }}-checkbox</div>
+          <div class="evo-form-{{ n }}-checkbox">
+            <input type="checkbox" id="checkbox{{ n }}"><label for="checkbox{{ n }}">Item</label>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="row" ng-controller="RangeController">
+    <div ng-repeat="n in range(12,10)">
+      <div class="col-xs-12 col-sm-4">
+        <div class="annotation">evo-form-{{ n }}-checkbox</div>
+          <div class="evo-form-{{ n }}-checkbox">
+            <input type="checkbox" id="checkbox{{ n }}"><label for="checkbox{{ n }}">Item</label>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="row" ng-controller="RangeController">
+    <div ng-repeat="n in range(9,7)">
+      <div class="col-xs-12 col-sm-4">
+        <div class="annotation">evo-form-{{ n }}-checkbox</div>
+          <div class="evo-form-{{ n }}-checkbox">
+            <input type="checkbox" id="checkbox{{ n }}"><label for="checkbox{{ n }}">Item</label>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="row" ng-controller="RangeController">
+    <div ng-repeat="n in range(6,4)">
+      <div class="col-xs-12 col-sm-4">
+        <div class="annotation">evo-form-{{ n }}-checkbox</div>
+          <div class="evo-form-{{ n }}-checkbox">
+            <input type="checkbox" id="checkbox{{ n }}"><label for="checkbox{{ n }}">Item</label>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="row" ng-controller="RangeController">
+    <div ng-repeat="n in range(3,1)">
+      <div class="col-xs-12 col-sm-4">
+        <div class="annotation">evo-form-{{ n }}-checkbox</div>
+          <div class="evo-form-{{ n }}-checkbox">
+            <input type="checkbox" id="checkbox{{ n }}"><label for="checkbox{{ n }}">Item</label>
+          </div>
+        </div>
+    </div>
+  </div>
+
+
+    <div class="evo-space-20"></div>
+
+
+    <h2 class="evo-header">Radio Buttons</h2>
+
+  <div class="evo-space-10"></div>
+
+
+  <div class="row" ng-controller="RangeController">
+    <div ng-repeat="n in range(30,28)">
+      <div class="col-xs-12 col-sm-4">
+        <div class="annotation">evo-form-{{ n }}-radio</div>
+          <div class="evo-form-{{ n }}-radio">
+            <input type="radio" id="radio{{ n }}"><label for="radio{{ n }}">Option</label>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="row" ng-controller="RangeController">
+    <div ng-repeat="n in range(27,25)">
+      <div class="col-xs-12 col-sm-4">
+        <div class="annotation">evo-form-{{ n }}-radio</div>
+          <div class="evo-form-{{ n }}-radio">
+            <input type="radio" id="radio{{ n }}"><label for="radio{{ n }}">Option</label>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="row" ng-controller="RangeController">
+    <div ng-repeat="n in range(24,22)">
+      <div class="col-xs-12 col-sm-4">
+        <div class="annotation">evo-form-{{ n }}-radio</div>
+          <div class="evo-form-{{ n }}-radio">
+            <input type="radio" id="radio{{ n }}"><label for="radio{{ n }}">Option</label>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="row" ng-controller="RangeController">
+    <div ng-repeat="n in range(21,19)">
+      <div class="col-xs-12 col-sm-4">
+        <div class="annotation">evo-form-{{ n }}-radio</div>
+          <div class="evo-form-{{ n }}-radio">
+            <input type="radio" id="radio{{ n }}"><label for="radio{{ n }}">Option</label>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="row" ng-controller="RangeController">
+    <div ng-repeat="n in range(18,16)">
+      <div class="col-xs-12 col-sm-4">
+        <div class="annotation">evo-form-{{ n }}-radio</div>
+          <div class="evo-form-{{ n }}-radio">
+            <input type="radio" id="radio{{ n }}"><label for="radio{{ n }}">Option</label>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="row" ng-controller="RangeController">
+    <div ng-repeat="n in range(15,13)">
+      <div class="col-xs-12 col-sm-4">
+        <div class="annotation">evo-form-{{ n }}-radio</div>
+          <div class="evo-form-{{ n }}-radio">
+            <input type="radio" id="radio{{ n }}"><label for="radio{{ n }}">Option</label>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="row" ng-controller="RangeController">
+    <div ng-repeat="n in range(12,10)">
+      <div class="col-xs-12 col-sm-4">
+        <div class="annotation">evo-form-{{ n }}-radio</div>
+          <div class="evo-form-{{ n }}-radio">
+            <input type="radio" id="radio{{ n }}"><label for="radio{{ n }}">Option</label>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="row" ng-controller="RangeController">
+    <div ng-repeat="n in range(9,7)">
+      <div class="col-xs-12 col-sm-4">
+        <div class="annotation">evo-form-{{ n }}-radio</div>
+          <div class="evo-form-{{ n }}-radio">
+            <input type="radio" id="radio{{ n }}"><label for="radio{{ n }}">Option</label>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="row" ng-controller="RangeController">
+    <div ng-repeat="n in range(6,4)">
+      <div class="col-xs-12 col-sm-4">
+        <div class="annotation">evo-form-{{ n }}-radio</div>
+          <div class="evo-form-{{ n }}-radio">
+            <input type="radio" id="radio{{ n }}"><label for="radio{{ n }}">Option</label>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="row" ng-controller="RangeController">
+    <div ng-repeat="n in range(3,1)">
+      <div class="col-xs-12 col-sm-4">
+        <div class="annotation">evo-form-{{ n }}-radio</div>
+          <div class="evo-form-{{ n }}-radio">
+            <input type="radio" id="radio{{ n }}"><label for="radio{{ n }}">Option</label>
+          </div>
+        </div>
+    </div>
+  </div>
+
+
+  <div class="evo-space-20"></div>
+
+  <h2 class="evo-header">Number Input</h2>
+
+  <div class="evo-space-10"></div>
+
+  <div class="row" ng-controller="RangeController">
+    <div ng-repeat="n in range(30,1)">
+      <div class="col-xs-12 col-sm-7">
+        <div class="annotation">evo-form-{{ n }}-number</div>
+          <div class="evo-form-{{ n }}-number">
+            <input type="number" placeholder="Number">
+          </div>
+        </div>
+    </div>
+  </div>
+
+
+  <div class="evo-space-20"></div>
+
+  <h2 class="evo-header">Date Input</h2>
+
+  <div class="evo-space-10"></div>
+
+  <div class="row" ng-controller="RangeController">
+    <div ng-repeat="n in range(30,1)">
+      <div class="col-xs-12 col-sm-7">
+        <div class="annotation">evo-form-{{ n }}-date</div>
+          <div class="evo-form-{{ n }}-date">
+            <input type="date" placeholder="Date">
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="evo-space-20"></div>
+
+  <h2 class="evo-header">File Input</h2>
+
+  <div class="evo-space-10"></div>
+
+  <p class="evo-text-8 evo-gray-40">Note: File input is only available in max size of 20, due to rendering issue.</p>
+
+
+  <div class="row" ng-controller="RangeController">
+    <div ng-repeat="n in range(20,1)">
+      <div class="col-xs-12 col-sm-7">
+        <div class="annotation">evo-form-{{ n }}-input</div>
+          <div class="evo-form-{{ n }}-input">
+            <input type="file">
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="evo-space-20"></div>
+
+  <h2 class="evo-header">Time Input</h2>
+
+  <div class="evo-space-10"></div>
+
+  <div class="row" ng-controller="RangeController">
+    <div ng-repeat="n in range(30,1)">
+      <div class="col-xs-12 col-sm-7">
+        <div class="annotation">evo-form-{{ n }}-time</div>
+          <div class="evo-form-{{ n }}-time">
+            <input type="time" placeholder="Time">
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="evo-space-biggest"></div>
+
+  <back-top scroll-speed=1600></back-top>
+
+</div> <!-- container -->
