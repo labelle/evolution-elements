@@ -1,5 +1,5 @@
-var app = angular.module("headers", []);
-app.controller("RangeController", function($scope) {
+var app = angular.module("elements", []);
+app.controller("RangeController", function($scope, $http) {
 
 
     $scope.range = function(max, min, step){
@@ -15,5 +15,10 @@ app.controller("RangeController", function($scope) {
       for (var i = min; i <= max; i += step) input.push(i);
       return input;
     };
+
+    $http.get('../json/hex_colors.json').then(function(response) {
+      $scope.colors = response.data;
+    console.log($scope.colors)
+    });
 
 });

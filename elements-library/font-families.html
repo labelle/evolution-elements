@@ -65,13 +65,24 @@
     <!-- <div class="evo-line-thinnest"></div>  -->
 </header>
 
+
 <div class="container">
 
+  <div class="row" ng-controller="pageslideController">
+  <div class="col-xs-1">
+     <div class="evo-space"></div>
+    <a href="#/elements-library#fonts" class="no-wrap">elements library</a>
+  </div>
+<!--   <div class="col-xs-1 breadcrumb-elements">
+    <div ncy-breadcrumb></div>
+  </div> -->
+  <div class="evo-space-smallest"></div>
+  </div>
 
   <div class="row">
     <div class="col-xs-12">
-      <h2 class="evo-header-28 evo-no-line">Font Families</h2>
-      <div class="evo-space-2"></div>
+      <h2 class="evo-header-biggest evo-no-line">Font Families</h2>
+      <div class="evo-space-smallest"></div>
     </div>
 <!--     <div class="evo-space-20"></div> -->
   </div>
@@ -82,28 +93,28 @@
 
  <div class="row">
   <div class="col-xs-12 col-sm-10 col-md-8">
-    <p class="evo-text-10 evo-dark-50">Basic font stacks, along with a variety of look and feel options.</p>
+    <p class="evo-text-intro">Basic font stacks, along with a variety of look and feel options.</p>
   </div>
 </div>
 
 
-<div class="evo-space-15"></div>
+<div class="evo-space"></div>
 
-<div class="evo-line-3"></div>
+<div class="evo-line-thin"></div>
 
- <div class="evo-space-10"></div>
+ <div class="evo-space-small"></div>
 
 
   <div class="row">
     <div class="col-xs-12">
-      <h2 class="evo-header-20 evo-no-line" id="neutral-colors">evo-font</h2>
-      <div class="evo-space-2"></div>
+      <h2 class="evo-header-big" id="neutral-colors">evo-font</h2>
+      <div class="evo-space-smallest"></div>
     </div>
   </div>
  
 
   <div class="row">
-    <div class="evo-space-2"></div>
+    <div class="evo-space-smallest"></div>
       <div class="col-xs-12 col-sm-6">
         <div class='annotation'>evo-font-arial</div>
         <p class="evo-text-15 evo-font-arial">Arial <br />ABCDEFGHIJKLMNOPQRSTUVWXYZ <br />abcdefghijklmnopqrstuvwxyz <br />1234567890!@#$%^&*( )</p>
@@ -126,7 +137,7 @@
         <p class="evo-text-15 evo-font-courier-new">Courier New<br />ABCDEFGHIJKLMNOPQRSTUVWXYZ <br />abcdefghijklmnopqrstuvwxyz <br />1234567890!@#$%^&*( )</p>
       </div>
 
-      <div class="evo-space-30"></div>
+      <div class="evo-space-biggest"></div>
   </div>
 
 </div> <!-- container -->
@@ -193,6 +204,8 @@
         
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+        <script src="../js/ng-repeat.js"></script>
         <script src="../js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
