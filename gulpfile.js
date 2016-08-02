@@ -41,7 +41,7 @@ gulp.task('scripts', function() {
 
 /* Sass task */
 gulp.task('sass', function () {  
-    gulp.src('scss/elements.scss')
+    return gulp.src('scss/evo-elements.scss')
     .pipe(plumber())
     .pipe(sass({
         includePaths: ['scss'].concat(neat)
