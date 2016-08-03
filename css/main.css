@@ -1154,3 +1154,8 @@ RETINA (2x RESOLUTION DEVICES)
 *********************/
 
 /*# sourceMappingURL=style.css.map */
+
+
+[ng\:cloak], [ng-cloak], .ng-cloak {
+  display: none !important;
+}
