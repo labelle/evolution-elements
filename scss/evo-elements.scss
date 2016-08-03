@@ -1,6 +1,6 @@
 /*******************************************************************************
 *
-* elements.css
+* evo-elements.css
 *
 * The goal of this file is to capture all Elements styles, used throughout the 
 * Elements site; some page specific styles are captured in seperate css files 
@@ -20,8 +20,6 @@
 *         - _TEXT is also used within orderd/unorderd list
 *         - 4 different list styes: regular/no-style, bullets, numbers and lines
 *         - bullets list are using custom SVGs
-*   _ICONS -   30 different icon sizes (sizes are incrementing from min 1 to max 30) 
-*              3 different styles: book, light and bold
 *   _BUTTONS - 30 different button sizes (sizes are incrementing from min 1 to max 30)
 *            - http://elements.humanig.com/#/buttons
 *   _FORMS - selection of input types: date input, file input, time input, radio button, checkbox, 
@@ -39,7 +37,7 @@
 
 
 ///**********************************
-// IMPORTING ELEMENTS AND STYLEGUIDE
+//      IMPORTING ELEMENTS 
 //**********************************/
 
 @import "elements/variables";
@@ -48,12 +46,10 @@
 @import "elements/fonts";
 @import "elements/headers";
 @import "elements/text";
-// @import "elements/icons";
 @import "elements/buttons";
 @import "elements/forms";
 @import "elements/lines";
 @import "elements/images";
 @import "elements/spacers";
-// @import "elements/errors";
+@import "elements/errors";
 
-// @import "styleguides/styleguide";
