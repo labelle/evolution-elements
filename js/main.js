@@ -23,16 +23,34 @@
       var spaceToggle = document.getElementById('outline');
       var spaceSection = $("div").find(".divider_outline")
 
-
       $('#outline').click(function() {
         if(!spaceToggle) {
           spaceToggle = true;
-          console.log('true')
           spaceSection.addClass('divider_outline');
         } else {
           spaceToggle = false;
-          console.log('false')
           spaceSection.removeClass('divider_outline');
+        }
+
+      });
+
+
+
+      // Toggle Headers Line
+
+      var headersToggle = document.getElementById('line');
+      var headersSection = $("div").find(".evo-no-line")
+
+
+      $('#line').click(function() {
+        if(!headersToggle) {
+          headersToggle = true;
+          console.log('true')
+          headersSection.addClass('evo-no-line');
+        } else {
+          headersToggle = false;
+          console.log('false')
+          headersSection.removeClass('evo-no-line');
         }
 
       });
