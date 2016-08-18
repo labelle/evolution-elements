@@ -1430,7 +1430,7 @@
   <div class="col-xs-12">
 
       <div class="evo-form-checkbox-small evo_wrapper">
-        <input type="checkbox" id="image" class="toggle_placeholder" ng-click="toggleImage = !toggleImage" checked><label for="image">Show images</label>
+        <input type="checkbox" id="image" class="toggle_placeholder" checked><label for="image">Show images</label>
       </div>
 
     </div>
@@ -1453,7 +1453,7 @@
 
       <div class="col-xs-offset-1 col-xs-5 col-img-toggle">
          <div class="annotation">evo-image-wide-7</div>
-        <img class="evo-image-wide-7 evo-dark-20-bg" ng-class="{'monolake-img': toggleImage}" title="" alt="">
+        <img class="evo-image-wide-7 evo-dark-20-bg img_toggle"  title="" alt="">
       </div>
     </div>
 
@@ -1468,7 +1468,7 @@
 
       <div class="col-xs-offset-1 col-xs-5 col-img-toggle">
          <div class="annotation">evo-image-tall-5</div>
-        <img class="evo-image-tall-5 evo-dark-20-bg" ng-class="{'monolake-img': toggleImage}" title="" alt="">
+        <img class="evo-image-tall-5 evo-dark-20-bg img_toggle"  title="" alt="">
       </div>
     </div>
 
@@ -1483,7 +1483,7 @@
 
       <div class="col-xs-offset-1 col-xs-5 col-img-toggle">
          <div class="annotation">evo-image-circle</div>
-        <img class="evo-image-circle evo-dark-20-bg" ng-class="{'monolake-img': toggleImage}" title="" alt="">
+        <img class="evo-image-circle evo-dark-20-bg img_toggle"  title="" alt="">
       </div>
     </div>
 
@@ -1517,7 +1517,7 @@
     <div class="evo_divs">
 
       <div class="evo-form-checkbox-small">
-        <input type="checkbox" id="outline" ng-click="toggleOutline = !toggleOutline" checked><label for="outline">show outlines</label>
+        <input type="checkbox" id="outline" checked><label for="outline">show outlines</label>
       </div>
       
       <div class="evo-space-5"></div>
@@ -1533,9 +1533,9 @@
         </div>
       </div>
 
-      <div class="col-xs-offset-1 col-xs-6" ng-controller="RangeController">
+      <div class="col-xs-offset-1 col-xs-6">
         <span class="annotation">evo-space-5
-        <div class="evo-space-5" ng-class="{'divider_outline': toggleOutline}"></div>
+        <div class="evo-space-5 divider_outline"></div>
       </span>
       </div>
     </div>
@@ -1547,9 +1547,9 @@
         </div>
       </div>
 
-      <div class="col-xs-offset-1 col-xs-6" ng-controller="RangeController">
+      <div class="col-xs-offset-1 col-xs-6">
         <span class="annotation">evo-space-10
-        <div class="evo-space-10" ng-class="{'divider_outline': toggleOutline}"></div>
+        <div class="evo-space-10 divider_outline"></div>
       </span>
       </div>
     </div>
@@ -1561,9 +1561,9 @@
         </div>
       </div>
 
-      <div class="col-xs-offset-1 col-xs-6" ng-controller="RangeController">
+      <div class="col-xs-offset-1 col-xs-6">
         <span class="annotation">evo-space-15
-        <div class="evo-space-15" ng-class="{'divider_outline': toggleOutline}"></div>
+        <div class="evo-space-15 divider_outline"></div>
       </span>
       </div>
     </div>
