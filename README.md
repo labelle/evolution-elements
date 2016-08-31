@@ -4,8 +4,7 @@ A comprehensive repository of all Evolution elements. Browse, copy code snippets
 # Features
 
 * Compiled and minified CSS
-* SASS
-* Gulp including Browser-Sync
+
 
 ## Download
 
