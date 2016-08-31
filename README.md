@@ -6,12 +6,11 @@ A comprehensive repository of all Evolution elements. Browse, copy code snippets
 * Compiled and minified CSS
 * SASS
 * Gulp including Browser-Sync
-* HTML Template
 
 ## Download
 
 ```bash
-https://github.com/labelle/evolution-elements/tree/master
+https://github.com/labelle/evolution-elements/tree/gh-pages
 ```
 
 ## 1. Install Gulp
