@@ -12,20 +12,6 @@ A comprehensive repository of all Evolution elements. Browse, copy code snippets
 https://github.com/labelle/evolution-elements/tree/gh-pages
 ```
 
-## 1. Install Gulp
-
-
-```bash
-npm install gulp
-```
-
-
-## 2. Run Gulp
-```bash
-gulp
-```
-- all SCSS/HTML will be watched for changes and injected into browser thanks to BrowserSync
-
 
 ## Contact
 Copyright (C) 2016 HumanIG LLC<br>
