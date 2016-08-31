@@ -59,6 +59,7 @@ https://github.com/labelle/evolution-elements/tree/download
 * css/
 * elements-library/
 * icons-gray/
+* icons-inverse/
 * img/
 * js/
 * .gitignore
