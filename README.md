@@ -6,7 +6,6 @@ A comprehensive repository of all Evolution elements. Browse, copy code snippets
 * Compiled and minified CSS
 * SASS
 * Gulp including Browser-Sync
-* HTML Template
 
 ## Download
 
