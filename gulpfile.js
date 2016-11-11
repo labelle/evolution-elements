@@ -29,8 +29,8 @@ var neat = require('node-neat').includePaths;
 gulp.task('scripts', function() {
   return gulp.src([
     /* Add your JS files here, they will be combined in this order */
-    'js/vendor/jquery-1.11.1.js',
-    'js/app.js'
+    'docs/js/vendor/jquery-1.11.1.js',
+    'docs/js/app.js'
     ])
     .pipe(concat('main.js'))
     .pipe(gulp.dest('js'))
@@ -46,10 +46,10 @@ gulp.task('sass', function () {
     .pipe(sass({
         includePaths: ['scss'].concat(neat)
     }))
-    .pipe(gulp.dest('css'))
+    .pipe(gulp.dest('docs/css'))
     .pipe(rename({suffix: '.min'}))
     .pipe(cleanCSS())
-    .pipe(gulp.dest('css'))
+    .pipe(gulp.dest('docs/css'))
     /* Reload the browser CSS after every change */
     .pipe(reload({stream:true}));
 });
@@ -61,7 +61,7 @@ gulp.task('bs-reload', function () {
 
 /* Prepare Browser-sync for localhost */
 gulp.task('browser-sync', function() {
-    browserSync.init(['css/*.css', 'js/*.js'], {
+    browserSync.init(['docs/css/*.css', 'docs/js/*.js'], {
         /*
         I like to use a vhost, WAMP guide: https://www.kristengrote.com/blog/articles/how-to-set-up-virtual-hosts-using-wamp, XAMP guide: http://sawmac.com/xampp/virtualhosts/
         */
@@ -69,7 +69,7 @@ gulp.task('browser-sync', function() {
         /* For a static server you would use this: */
         
         server: {
-            baseDir: './'
+            baseDir: './docs/'
         }
         
     });
@@ -80,7 +80,7 @@ gulp.task('default', ['sass', 'browser-sync'], function () {
     /* Watch scss, run the sass task on change. */
     gulp.watch(['scss/*.scss', 'scss/**/*.scss'], ['sass'])
     /* Watch app.js file, run the scripts task on change. */
-    gulp.watch(['js/app.js'], ['scripts'])
+    gulp.watch(['docs/js/app.js'], ['scripts'])
     /* Watch .html files, run the bs-reload task on change. */
-    gulp.watch(['*.html'], ['bs-reload']);
+    gulp.watch(['docs/*.html'], ['bs-reload']);
 });
