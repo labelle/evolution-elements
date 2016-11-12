@@ -13,12 +13,13 @@
 
 /* FORM 1 */
 
-// .evo-form-1-base {
+// %evo-form-1-base {
 //      padding: $form_padding+$form_padding_increment*0.5rem;
 //      font-size: $form_font_size+$form_font_size_increment*3rem;
 // }
 
-.evo-form-1 {
+
+%evo-form-1 {
 
   fieldset {
     border: 1px solid $gray_50_evo;
@@ -52,7 +53,7 @@
   textarea,
   select {
     width: 100%;
-    // @extend .evo-form-1-base;
+    // @extend %evo-form-1-base;
     padding: $form_padding+$form_padding_increment*0.5rem;
     font-size: $form_font_size+$form_font_size_increment*3rem;
     border-radius: $form_corners_evo;
@@ -63,6 +64,7 @@
     background-color: $form_background_color;
   }
 
+
   // select:hover {
   //   background-color: #eee;
   //   border-color: #666;
@@ -72,12 +74,12 @@
 
 /* FORM 2 */
 
-// .evo-form-2-base {
+// %evo-form-2-base {
 //      padding: $form_padding+$form_padding_increment*1rem;
 //      font-size: $form_font_size+$form_font_size_increment*4rem;
 // }
 
-.evo-form-2 {
+%evo-form-2 {
 
   fieldset {
     border: 1px solid $gray_50_evo;
@@ -112,7 +114,7 @@
   textarea,
   select {
     width: 100%;
-    // @extend .evo-form-2-base;
+    // @extend %evo-form-2-base;
     padding: $form_padding+$form_padding_increment*1rem;
     font-size: $form_font_size+$form_font_size_increment*4rem;
     border-radius: $form_corners_evo;
@@ -132,12 +134,12 @@
 
 /* FORM 3 */
 
-// .evo-form-3-base {
+// %evo-form-3-base {
 //      padding: $form_padding+$form_padding_increment*1.5rem;
 //      font-size: $form_font_size+$form_font_size_increment*5rem;
 // }
 
-.evo-form-3 {
+%evo-form-3 {
 
   fieldset {
     border: 1px solid $gray_50_evo;
@@ -171,7 +173,7 @@
   textarea,
   select {
     width: 100%;
-    // @extend .evo-form-3-base;
+    // @extend %evo-form-3-base;
     padding: $form_padding+$form_padding_increment*1.5rem;
     font-size: $form_font_size+$form_font_size_increment*5rem;
     border-radius: $form_corners_evo;
@@ -191,12 +193,12 @@
 
 /* FORM 4 */
 
-// .evo-form-4-base {
+// %evo-form-4-base {
 //      padding: $form_padding+$form_padding_increment*2rem;
 //      font-size: $form_font_size+$form_font_size_increment*6rem;
 // }
 
-.evo-form-4 {
+%evo-form-4 {
 
   fieldset {
     border: 1px solid $gray_50_evo;
@@ -230,7 +232,7 @@
   textarea,
   select {
     width: 100%;
-    // @extend .evo-form-4-base;
+    // @extend %evo-form-4-base;
     padding: $form_padding+$form_padding_increment*2rem;
     font-size: $form_font_size+$form_font_size_increment*6rem;
     border-radius: $form_corners_evo;
@@ -250,12 +252,12 @@
 
 /* FORM 5 */
 
-// .evo-form-5-base {
+// %evo-form-5-base {
 //      padding: $form_padding+$form_padding_increment*2.5rem;
 //      font-size: $form_font_size+$form_font_size_increment*7rem;
 // }
 
-.evo-form-5 {
+%evo-form-5 {
 
   fieldset {
     border: 1px solid $gray_50_evo;
@@ -289,7 +291,7 @@
   textarea,
   select {
     width: 100%;
-    // @extend .evo-form-5-base;
+    // @extend %evo-form-5-base;
     padding: $form_padding+$form_padding_increment*2.5rem;
     font-size: $form_font_size+$form_font_size_increment*7rem;
     border-radius: $form_corners_evo;
@@ -309,12 +311,12 @@
 
 /* FORM 6 */
 
-// .evo-form-6-base {
+// %evo-form-6-base {
 //      padding: $form_padding+$form_padding_increment*3rem;
 //      font-size: $form_font_size+$form_font_size_increment*8rem;
 // }
 
-.evo-form-6 {
+%evo-form-6 {
 
   fieldset {
     border: 1px solid $gray_50_evo;
@@ -348,7 +350,7 @@
   textarea,
   select {
     width: 100%;
-    // @extend .evo-form-6-base;
+    // @extend %evo-form-6-base;
     padding: $form_padding+$form_padding_increment*3rem;
     font-size: $form_font_size+$form_font_size_increment*8rem;
     border-radius: $form_corners_evo;
@@ -368,12 +370,12 @@
 
 /* FORM 7 */
 
-// .evo-form-7-base {
+// %evo-form-7-base {
 //      padding: $form_padding+$form_padding_increment*3.5rem;
 //      font-size: $form_font_size+$form_font_size_increment*9rem;
 // }
 
-.evo-form-7 {
+%evo-form-7 {
 
   fieldset {
     border: 1px solid $gray_50_evo;
@@ -407,7 +409,7 @@
   textarea,
   select {
     width: 100%;
-    // @extend .evo-form-7-base;
+    // @extend %evo-form-7-base;
     padding: $form_padding+$form_padding_increment*3.5rem;
     font-size: $form_font_size+$form_font_size_increment*9rem;
     border-radius: $form_corners_evo;
@@ -427,12 +429,12 @@
 
 /* FORM 8 */
 
-// .evo-form-8-base {
+// %evo-form-8-base {
 //      padding: $form_padding+$form_padding_increment*4rem;
 //      font-size: $form_font_size+$form_font_size_increment*10rem;
 // }
 
-.evo-form-8 {
+%evo-form-8 {
 
   fieldset {
     border: 1px solid $gray_50_evo;
@@ -466,7 +468,7 @@
   textarea,
   select {
     width: 100%;
-    // @extend .evo-form-8-base;
+    // @extend %evo-form-8-base;
     padding: $form_padding+$form_padding_increment*4rem;
     font-size: $form_font_size+$form_font_size_increment*10rem;
     border-radius: $form_corners_evo;
@@ -486,12 +488,12 @@
 
 /* FORM 9 */
 
-// .evo-form-9-base {
+// %evo-form-9-base {
 //      padding: $form_padding+$form_padding_increment*4.5rem;
 //      font-size: $form_font_size+$form_font_size_increment*11rem;
 // }
 
-.evo-form-9 {
+%evo-form-9 {
 
   fieldset {
     border: 1px solid $gray_50_evo;
@@ -525,7 +527,7 @@
   textarea,
   select {
     width: 100%;
-    // @extend .evo-form-9-base;
+    // @extend %evo-form-9-base;
     padding: $form_padding+$form_padding_increment*4.5rem;
     font-size: $form_font_size+$form_font_size_increment*11rem;
     border-radius: $form_corners_evo;
@@ -545,12 +547,12 @@
 
 /* FORM 10 */
 
-// .evo-form-10-base {
+// %evo-form-10-base {
 //      padding: $form_padding+$form_padding_increment*5rem;
 //      font-size: $form_font_size+$form_font_size_increment*12rem;
 // }
 
-.evo-form-10 {
+%evo-form-10 {
 
   fieldset {
     border: 1px solid $gray_50_evo;
@@ -584,7 +586,7 @@
   textarea,
   select {
     width: 100%;
-    // @extend .evo-form-10-base;
+    // @extend %evo-form-10-base;
     padding: $form_padding+$form_padding_increment*5rem;
     font-size: $form_font_size+$form_font_size_increment*12rem;
     border-radius: $form_corners_evo;
@@ -604,12 +606,12 @@
 
 /* FORM 11 */
 
-// .evo-form-11-base {
+// %evo-form-11-base {
 //      padding: $form_padding+$form_padding_increment*5.5rem;
 //      font-size: $form_font_size+$form_font_size_increment*13rem;
 // }
 
-.evo-form-11 {
+%evo-form-11 {
 
   fieldset {
     border: 1px solid $gray_50_evo;
@@ -643,7 +645,7 @@
   textarea,
   select {
     width: 100%;
-    // @extend .evo-form-11-base;
+    // @extend %evo-form-11-base;
     padding: $form_padding+$form_padding_increment*5.5rem;
     font-size: $form_font_size+$form_font_size_increment*13rem;
     border-radius: $form_corners_evo;
@@ -664,12 +666,12 @@
 
 /* FORM 12 */
 
-// .evo-form-12-base {
+// %evo-form-12-base {
 //      padding: $form_padding+$form_padding_increment*6rem;
 //      font-size: $form_font_size+$form_font_size_increment*14rem;
 // }
 
-.evo-form-12 {
+%evo-form-12 {
 
   fieldset {
     border: 1px solid $gray_50_evo;
@@ -703,7 +705,7 @@
   textarea,
   select {
     width: 100%;
-    // @extend .evo-form-12-base;
+    // @extend %evo-form-12-base;
     padding: $form_padding+$form_padding_increment*6rem;
     font-size: $form_font_size+$form_font_size_increment*14rem;
     border-radius: $form_corners_evo;
@@ -723,12 +725,12 @@
 
 /* FORM 13 */
 
-// .evo-form-13-base {
+// %evo-form-13-base {
 //      padding: $form_padding+$form_padding_increment*6.5rem;
 //      font-size: $form_font_size+$form_font_size_increment*15rem;
 // }
 
-.evo-form-13 {
+%evo-form-13 {
 
   fieldset {
     border: 1px solid $gray_50_evo;
@@ -762,7 +764,7 @@
   textarea,
   select {
     width: 100%;
-    // @extend .evo-form-13-base;
+    // @extend %evo-form-13-base;
     padding: $form_padding+$form_padding_increment*6.5rem;
     font-size: $form_font_size+$form_font_size_increment*15rem;
     border-radius: $form_corners_evo;
@@ -782,12 +784,12 @@
 
 /* FORM 14 */
 
-// .evo-form-14-base {
+// %evo-form-14-base {
 //      padding: $form_padding+$form_padding_increment*7rem;
 //      font-size: $form_font_size+$form_font_size_increment*16rem;
 // }
 
-.evo-form-14 {
+%evo-form-14 {
 
   fieldset {
     border: 1px solid $gray_50_evo;
@@ -821,7 +823,7 @@
   textarea,
   select {
     width: 100%;
-    // @extend .evo-form-14-base;
+    // @extend %evo-form-14-base;
     padding: $form_padding+$form_padding_increment*7rem;
     font-size: $form_font_size+$form_font_size_increment*16rem;
     border-radius: $form_corners_evo;
@@ -841,12 +843,12 @@
 
 /* FORM 15 */
 
-// .evo-form-15-base {
+// %evo-form-15-base {
 //      padding: $form_padding+$form_padding_increment*7.5rem;
 //      font-size: $form_font_size+$form_font_size_increment*17rem;
 // }
 
-.evo-form-15 {
+%evo-form-15 {
 
   fieldset {
     border: 1px solid $gray_50_evo;
@@ -880,7 +882,7 @@
   textarea,
   select {
     width: 100%;
-    // @extend .evo-form-15-base;
+    // @extend %evo-form-15-base;
     padding: $form_padding+$form_padding_increment*7.5rem;
     font-size: $form_font_size+$form_font_size_increment*17rem;
     border-radius: $form_corners_evo;
@@ -900,12 +902,12 @@
 
 /* FORM 16 */
 
-// .evo-form-16-base {
+// %evo-form-16-base {
 //      padding: $form_padding+$form_padding_increment*8rem;
 //      font-size: $form_font_size+$form_font_size_increment*18rem;
 // }
 
-.evo-form-16 {
+%evo-form-16 {
 
   fieldset {
     border: 1px solid $gray_50_evo;
@@ -940,7 +942,7 @@
   textarea,
   select {
     width: 100%;
-    // @extend .evo-form-16-base;
+    // @extend %evo-form-16-base;
     padding: $form_padding+$form_padding_increment*8rem;
     font-size: $form_font_size+$form_font_size_increment*18rem;
     border-radius: $form_corners_evo;
@@ -960,12 +962,12 @@
 
 /* FORM 17 */
 
-// .evo-form-17-base {
+// %evo-form-17-base {
 //      padding: $form_padding+$form_padding_increment*8.5rem;
 //      font-size: $form_font_size+$form_font_size_increment*19rem;
 // }
 
-.evo-form-17 {
+%evo-form-17 {
 
   fieldset {
     border: 1px solid $gray_50_evo;
@@ -999,7 +1001,7 @@
   textarea,
   select {
     width: 100%;
-    // @extend .evo-form-17-base;
+    // @extend %evo-form-17-base;
     padding: $form_padding+$form_padding_increment*8.5rem;
     font-size: $form_font_size+$form_font_size_increment*19rem;
     border-radius: $form_corners_evo;
@@ -1019,12 +1021,12 @@
 
 /* FORM 18 */
 
-// .evo-form-18-base {
+// %evo-form-18-base {
 //      padding: $form_padding+$form_padding_increment*9rem;
 //      font-size: $form_font_size+$form_font_size_increment*20rem;
 // }
 
-.evo-form-18 {
+%evo-form-18 {
 
   fieldset {
     border: 1px solid $gray_50_evo;
@@ -1058,7 +1060,7 @@
   textarea,
   select {
     width: 100%;
-    // @extend .evo-form-18-base;
+    // @extend %evo-form-18-base;
     padding: $form_padding+$form_padding_increment*9rem;
     font-size: $form_font_size+$form_font_size_increment*20rem;
     border-radius: $form_corners_evo;
@@ -1078,12 +1080,12 @@
 
 /* FORM 19 */
 
-.evo-form-19-base {
+%evo-form-19-base {
      padding: $form_padding+$form_padding_increment*9.5rem;
      font-size: $form_font_size+$form_font_size_increment*21rem;
 }
 
-.evo-form-19 {
+%evo-form-19 {
 
   fieldset {
     border: 1px solid $gray_50_evo;
@@ -1117,7 +1119,7 @@
   textarea,
   select {
     width: 100%;
-    // @extend .evo-form-19-base;
+    // @extend %evo-form-19-base;
     padding: $form_padding+$form_padding_increment*9.5rem;
     font-size: $form_font_size+$form_font_size_increment*21rem;
     border-radius: $form_corners_evo;
@@ -1137,12 +1139,12 @@
 
 /* FORM 20 */
 
-// .evo-form-20-base {
+// %evo-form-20-base {
 //      padding: $form_padding+$form_padding_increment*10rem;
 //      font-size: $form_font_size+$form_font_size_increment*22rem;
 // }
 
-.evo-form-20 {
+%evo-form-20 {
 
   fieldset {
     border: 1px solid $gray_50_evo;
@@ -1176,7 +1178,7 @@
   textarea,
   select {
     width: 100%;
-    // @extend .evo-form-20-base;
+    // @extend %evo-form-20-base;
     padding: $form_padding+$form_padding_increment*10rem;
     font-size: $form_font_size+$form_font_size_increment*22rem;
     border-radius: $form_corners_evo;
@@ -1196,12 +1198,12 @@
 
 /* FORM 21 */
 
-// .evo-form-21-base {
+// %evo-form-21-base {
 //      padding: $form_padding+$form_padding_increment*10.5rem;
 //      font-size: $form_font_size+$form_font_size_increment*23rem;
 // }
 
-.evo-form-21 {
+%evo-form-21 {
 
   fieldset {
     border: 1px solid $gray_50_evo;
@@ -1235,7 +1237,7 @@
   textarea,
   select {
     width: 100%;
-    // @extend .evo-form-21-base;
+    // @extend %evo-form-21-base;
     padding: $form_padding+$form_padding_increment*10.5rem;
     font-size: $form_font_size+$form_font_size_increment*23rem;
     border-radius: $form_corners_evo;
@@ -1255,12 +1257,12 @@
 
 /* FORM 22 */
 
-// .evo-form-22-base {
+// %evo-form-22-base {
 //      padding: $form_padding+$form_padding_increment*11rem;
 //      font-size: $form_font_size+$form_font_size_increment*24rem;
 // }
 
-.evo-form-22 {
+%evo-form-22 {
 
   fieldset {
     border: 1px solid $gray_50_evo;
@@ -1294,7 +1296,7 @@
   textarea,
   select {
     width: 100%;
-    // @extend .evo-form-22-base;
+    // @extend %evo-form-22-base;
     padding: $form_padding+$form_padding_increment*11rem;
     font-size: $form_font_size+$form_font_size_increment*24rem;
     border-radius: $form_corners_evo;
@@ -1314,12 +1316,12 @@
 
 /* FORM 23 */
 
-// .evo-form-23-base {
+// %evo-form-23-base {
 //      padding: $form_padding+$form_padding_increment*11.5rem;
 //      font-size: $form_font_size+$form_font_size_increment*25rem;
 // }
 
-.evo-form-23 {
+%evo-form-23 {
 
   fieldset {
     border: 1px solid $gray_50_evo;
@@ -1353,7 +1355,7 @@
   textarea,
   select {
     width: 100%;
-    // @extend .evo-form-23-base;
+    // @extend %evo-form-23-base;
     padding: $form_padding+$form_padding_increment*11.5rem;
     font-size: $form_font_size+$form_font_size_increment*25rem;
     border-radius: $form_corners_evo;
@@ -1373,12 +1375,12 @@
 
 /* FORM 24 */
 
-// .evo-form-24-base {
+// %evo-form-24-base {
 //      padding: $form_padding+$form_padding_increment*12rem;
 //      font-size: $form_font_size+$form_font_size_increment*26rem;
 // }
 
-.evo-form-24 {
+%evo-form-24 {
 
   fieldset {
     border: 1px solid $gray_50_evo;
@@ -1412,7 +1414,7 @@
   textarea,
   select {
     width: 100%;
-    // @extend .evo-form-24-base;
+    // @extend %evo-form-24-base;
     padding: $form_padding+$form_padding_increment*12rem;
     font-size: $form_font_size+$form_font_size_increment*26rem;
     border-radius: $form_corners_evo;
@@ -1432,12 +1434,12 @@
 
 /* FORM 25 */
 
-// .evo-form-25-base {
+// %evo-form-25-base {
 //      padding: $form_padding+$form_padding_increment*12.5rem;
 //      font-size: $form_font_size+$form_font_size_increment*27rem;
 // }
 
-.evo-form-25 {
+%evo-form-25 {
 
   fieldset {
     border: 1px solid $gray_50_evo;
@@ -1471,7 +1473,7 @@
   textarea,
   select {
     width: 100%;
-    // @extend .evo-form-25-base;
+    // @extend %evo-form-25-base;
     padding: $form_padding+$form_padding_increment*12.5rem;
     font-size: $form_font_size+$form_font_size_increment*27rem;
     border-radius: $form_corners_evo;
@@ -1491,12 +1493,12 @@
 
 /* FORM 26 */
 
-// .evo-form-26-base {
+// %evo-form-26-base {
 //      padding: $form_padding+$form_padding_increment*13rem;
 //      font-size: $form_font_size+$form_font_size_increment*28rem;
 // }
 
-.evo-form-26 {
+%evo-form-26 {
 
   fieldset {
     border: 1px solid $gray_50_evo;
@@ -1530,7 +1532,7 @@
   textarea,
   select {
     width: 100%;
-    // @extend .evo-form-26-base;
+    // @extend %evo-form-26-base;
     padding: $form_padding+$form_padding_increment*13rem;
     font-size: $form_font_size+$form_font_size_increment*28rem;
     border-radius: $form_corners_evo;
@@ -1550,12 +1552,12 @@
 
 /* FORM 27 */
 
-// .evo-form-27-base {
+// %evo-form-27-base {
 //      padding: $form_padding+$form_padding_increment*13.5rem;
 //      font-size: $form_font_size+$form_font_size_increment*29rem;
 // }
 
-.evo-form-27 {
+%evo-form-27 {
 
   fieldset {
     border: 1px solid $gray_50_evo;
@@ -1608,12 +1610,12 @@
 
 /* FORM 28 */
 
-// .evo-form-28-base {
+// %evo-form-28-base {
 //      padding: $form_padding+$form_padding_increment*14rem;
 //      font-size: $form_font_size+$form_font_size_increment*30rem;
 // }
 
-.evo-form-28 {
+%evo-form-28 {
 
   fieldset {
     border: 1px solid $gray_50_evo;
@@ -1647,7 +1649,7 @@
   textarea,
   select {
     width: 100%;
-    // @extend .evo-form-28-base;
+    // @extend %evo-form-28-base;
     padding: $form_padding+$form_padding_increment*14rem;
     font-size: $form_font_size+$form_font_size_increment*30rem;
     border-radius: $form_corners_evo;
@@ -1667,12 +1669,12 @@
 
 /* FORM 29 */
 
-// .evo-form-29-base {
+// %evo-form-29-base {
 //      padding: $form_padding+$form_padding_increment*14.5rem;
 //      font-size: $form_font_size+$form_font_size_increment*31rem;
 // }
 
-.evo-form-29 {
+%evo-form-29 {
 
   fieldset {
     border: 1px solid $gray_50_evo;
@@ -1706,7 +1708,7 @@
   textarea,
   select {
     width: 100%;
-    // @extend .evo-form-29-base;
+    // @extend %evo-form-29-base;
     padding: $form_padding+$form_padding_increment*14.5rem;
     font-size: $form_font_size+$form_font_size_increment*31rem;
     border-radius: $form_corners_evo;
@@ -1726,12 +1728,12 @@
 
 /* FORM 30 */
 
-// .evo-form-30-base {
+// %evo-form-30-base {
 //      padding: $form_padding+$form_padding_increment*15rem;
 //      font-size: $form_font_size+$form_font_size_increment*32rem;
 // }
 
-.evo-form-30 {
+%evo-form-30 {
 
   fieldset {
     border: 1px solid $gray_50_evo;
@@ -1779,7 +1781,7 @@
   textarea,
   select {
     width: 100%;
-    // @extend .evo-form-30-base;
+    // @extend %evo-form-30-base;
     padding: $form_padding+$form_padding_increment*15rem;
     font-size: $form_font_size+$form_font_size_increment*32rem;
     border-radius: $form_corners_evo;
@@ -1810,7 +1812,7 @@
 *********************/
 
 
-  .evo-form-input-base {
+  %evo-form-input-base {
 
     .inputfile {
       width: 0.1px;
@@ -1848,9 +1850,9 @@
 
     /* INPUT 1 */
 
-  .evo-form-20-input {
+  %evo-form-20-input {
  
-     @extend .evo-form-input-base;  
+     @extend %evo-form-input-base;  
   
   }
 
@@ -1869,7 +1871,7 @@
 *********************/
 
 
-  .evo-form-radio-base {
+  %evo-form-radio-base {
 
     input[type=radio] {
       display: none;
@@ -1902,9 +1904,9 @@
 
     /* RADIO 1 */
 
-  .evo-form-1-radio {
+  %evo-form-1-radio {
  
-    @extend .evo-form-radio-base;  
+    @extend %evo-form-radio-base;  
 
     label {
     padding-left: 12px;
@@ -1934,9 +1936,9 @@
 
   /* RADIO 2 */
 
-  .evo-form-2-radio {
+  %evo-form-2-radio {
  
-    @extend .evo-form-radio-base;  
+    @extend %evo-form-radio-base;  
 
     label {
     padding-left: 16px;
@@ -1966,9 +1968,9 @@
 
   /* RADIO 3 */
 
-  .evo-form-3-radio {
+  %evo-form-3-radio {
  
-    @extend .evo-form-radio-base;  
+    @extend %evo-form-radio-base;  
 
     label {
     padding-left: 16px;
@@ -1997,9 +1999,9 @@
 
   /* RADIO 4 */
 
-  .evo-form-4-radio {
+  %evo-form-4-radio {
  
-    @extend .evo-form-radio-base;  
+    @extend %evo-form-radio-base;  
 
     label {
     padding-left: 18px;
@@ -2029,9 +2031,9 @@
 
   /* RADIO 5 */
 
-  .evo-form-5-radio {
+  %evo-form-5-radio {
  
-    @extend .evo-form-radio-base;  
+    @extend %evo-form-radio-base;  
 
     label {
     padding-left: 18px;
@@ -2061,9 +2063,9 @@
 
   /* RADIO 6 */
 
-  .evo-form-6-radio {
+  %evo-form-6-radio {
  
-    @extend .evo-form-radio-base;  
+    @extend %evo-form-radio-base;  
 
     label {
     padding-left: 20px;
@@ -2092,9 +2094,9 @@
 
   /* RADIO 7 */
 
-  .evo-form-7-radio {
+  %evo-form-7-radio {
  
-    @extend .evo-form-radio-base;  
+    @extend %evo-form-radio-base;  
 
     label {
     padding-left: 20px;
@@ -2123,9 +2125,9 @@
 
   /* RADIO 8 */
 
-  .evo-form-8-radio {
+  %evo-form-8-radio {
  
-    @extend .evo-form-radio-base;  
+    @extend %evo-form-radio-base;  
 
     label {
     padding-left: 20px;
@@ -2153,9 +2155,9 @@
 
   /* RADIO 9 */
 
-  .evo-form-9-radio {
+  %evo-form-9-radio {
  
-    @extend .evo-form-radio-base;  
+    @extend %evo-form-radio-base;  
 
     label {
     padding-left: 23px;
@@ -2182,9 +2184,9 @@
 
   /* RADIO 10 */
 
-  .evo-form-10-radio {
+  %evo-form-10-radio {
  
-    @extend .evo-form-radio-base;  
+    @extend %evo-form-radio-base;  
 
     label {
     padding-left: 25px;
@@ -2212,9 +2214,9 @@
 
    /* RADIO 11 */
 
-  .evo-form-11-radio {
+  %evo-form-11-radio {
  
-    @extend .evo-form-radio-base;  
+    @extend %evo-form-radio-base;  
 
     label {
     padding-left: 25px;
@@ -2242,9 +2244,9 @@
 
   /* RADIO 12 */
 
-  .evo-form-12-radio {
+  %evo-form-12-radio {
  
-    @extend .evo-form-radio-base;  
+    @extend %evo-form-radio-base;  
 
     label {
     padding-left: 27px;
@@ -2271,9 +2273,9 @@
 
   /* RADIO 13 */
 
-  .evo-form-13-radio {
+  %evo-form-13-radio {
  
-    @extend .evo-form-radio-base;  
+    @extend %evo-form-radio-base;  
 
     label {
     padding-left: 28px;
@@ -2301,9 +2303,9 @@
 
   /* RADIO 14 */
 
-  .evo-form-14-radio {
+  %evo-form-14-radio {
  
-    @extend .evo-form-radio-base;  
+    @extend %evo-form-radio-base;  
 
     label {
     padding-left: 28px;
@@ -2332,9 +2334,9 @@
 
   /* RADIO 30 */
 
-  .evo-form-30-radio {
+  %evo-form-30-radio {
  
-    @extend .evo-form-radio-base;  
+    @extend %evo-form-radio-base;  
 
     label {
     padding-left: 50px;
@@ -2362,9 +2364,9 @@
 
   /* RADIO 29 */
 
-  .evo-form-29-radio {
+  %evo-form-29-radio {
  
-    @extend .evo-form-radio-base;  
+    @extend %evo-form-radio-base;  
 
     label {
     padding-left: 49px;
@@ -2393,9 +2395,9 @@
 
   /* RADIO 28 */
 
-  .evo-form-28-radio {
+  %evo-form-28-radio {
  
-    @extend .evo-form-radio-base;  
+    @extend %evo-form-radio-base;  
 
     label {
     padding-left: 49px;
@@ -2424,9 +2426,9 @@
 
   /* RADIO 27 */
 
-  .evo-form-27-radio {
+  %evo-form-27-radio {
  
-    @extend .evo-form-radio-base;  
+    @extend %evo-form-radio-base;  
 
     label {
     padding-left: 47px;
@@ -2454,9 +2456,9 @@
 
   /* RADIO 26 */
 
-  .evo-form-26-radio {
+  %evo-form-26-radio {
  
-    @extend .evo-form-radio-base;  
+    @extend %evo-form-radio-base;  
 
     label {
     padding-left: 45px;
@@ -2485,9 +2487,9 @@
 
   /* RADIO 25 */
 
-  .evo-form-25-radio {
+  %evo-form-25-radio {
  
-    @extend .evo-form-radio-base;  
+    @extend %evo-form-radio-base;  
 
     label {
     padding-left: 45px;
@@ -2516,9 +2518,9 @@
 
   /* RADIO 24 */
 
-  .evo-form-24-radio {
+  %evo-form-24-radio {
  
-    @extend .evo-form-radio-base;  
+    @extend %evo-form-radio-base;  
 
     label {
     padding-left: 44px;
@@ -2546,9 +2548,9 @@
 
   /* RADIO 23 */
 
-  .evo-form-23-radio {
+  %evo-form-23-radio {
  
-    @extend .evo-form-radio-base;  
+    @extend %evo-form-radio-base;  
 
     label {
     padding-left: 40px;
@@ -2577,9 +2579,9 @@
 
   /* RADIO 22 */
 
-  .evo-form-22-radio {
+  %evo-form-22-radio {
  
-    @extend .evo-form-radio-base;  
+    @extend %evo-form-radio-base;  
 
     label {
     padding-left: 40px;
@@ -2608,9 +2610,9 @@
 
   /* RADIO 21 */
 
-  .evo-form-21-radio {
+  %evo-form-21-radio {
  
-    @extend .evo-form-radio-base;  
+    @extend %evo-form-radio-base;  
 
     label {
     padding-left: 39px;
@@ -2638,9 +2640,9 @@
 
   /* RADIO 20 */
 
-  .evo-form-20-radio {
+  %evo-form-20-radio {
  
-    @extend .evo-form-radio-base;  
+    @extend %evo-form-radio-base;  
 
     label {
     padding-left: 35px;
@@ -2669,9 +2671,9 @@
 
   /* RADIO 19 */
 
-  .evo-form-19-radio {
+  %evo-form-19-radio {
  
-    @extend .evo-form-radio-base;  
+    @extend %evo-form-radio-base;  
 
     label {
     padding-left: 35px;
@@ -2700,9 +2702,9 @@
 
   /* RADIO 18 */
 
-  .evo-form-18-radio {
+  %evo-form-18-radio {
  
-    @extend .evo-form-radio-base;  
+    @extend %evo-form-radio-base;  
 
     label {
     padding-left: 33px;
@@ -2730,9 +2732,9 @@
 
    /* RADIO 17 */
 
-  .evo-form-17-radio {
+  %evo-form-17-radio {
  
-    @extend .evo-form-radio-base;  
+    @extend %evo-form-radio-base;  
 
     label {
     padding-left: 32px;
@@ -2761,9 +2763,9 @@
 
    /* RADIO 16 */
 
-  .evo-form-16-radio {
+  %evo-form-16-radio {
  
-    @extend .evo-form-radio-base;  
+    @extend %evo-form-radio-base;  
 
     label {
     padding-left: 32px;
@@ -2791,9 +2793,9 @@
 
   /* RADIO 15 */
 
-  .evo-form-15-radio {
+  %evo-form-15-radio {
  
-    @extend .evo-form-radio-base;  
+    @extend %evo-form-radio-base;  
 
     label {
     padding-left: 30px;
@@ -2827,7 +2829,7 @@
 *********************/
 
 
-  .evo-form-checkbox-base {
+  %evo-form-checkbox-base {
 
 
     input[type=checkbox] {
@@ -2861,9 +2863,9 @@
 
     /* CHECKBOX 1 */
 
-  .evo-form-1-checkbox {
+  %evo-form-1-checkbox {
  
-    @extend .evo-form-checkbox-base;  
+    @extend %evo-form-checkbox-base;  
 
     label {
     padding-left: 11px;
@@ -2892,9 +2894,9 @@
 
   /* CHECKBOX 2 */
 
-  .evo-form-2-checkbox {
+  %evo-form-2-checkbox {
  
-    @extend .evo-form-checkbox-base;  
+    @extend %evo-form-checkbox-base;  
 
     label {
     padding-left: 12px;
@@ -2922,9 +2924,9 @@
 
   /* CHECKBOX 3 */
 
-  .evo-form-3-checkbox {
+  %evo-form-3-checkbox {
  
-    @extend .evo-form-checkbox-base;  
+    @extend %evo-form-checkbox-base;  
 
     label {
     padding-left: 12px;
@@ -2953,9 +2955,9 @@
 
   /* CHECKBOX 4 */
 
-  .evo-form-4-checkbox {
+  %evo-form-4-checkbox {
  
-    @extend .evo-form-checkbox-base;  
+    @extend %evo-form-checkbox-base;  
 
     label {
     padding-left: 16px;
@@ -2984,9 +2986,9 @@
 
   /* CHECKBOX 5 */
 
-  .evo-form-5-checkbox {
+  %evo-form-5-checkbox {
  
-    @extend .evo-form-checkbox-base;  
+    @extend %evo-form-checkbox-base;  
 
     label {
     padding-left: 16px;
@@ -3015,9 +3017,9 @@
 
   /* CHECKBOX 6 */
 
-  .evo-form-6-checkbox {
+  %evo-form-6-checkbox {
  
-    @extend .evo-form-checkbox-base;  
+    @extend %evo-form-checkbox-base;  
 
     label {
     padding-left: 17px;
@@ -3046,9 +3048,9 @@
 
   /* CHECKBOX 7 */
 
-  .evo-form-7-checkbox {
+  %evo-form-7-checkbox {
  
-    @extend .evo-form-checkbox-base;  
+    @extend %evo-form-checkbox-base;  
 
     label {
     padding-left: 20px;
@@ -3077,9 +3079,9 @@
 
   /* CHECKBOX 8 */
 
-  .evo-form-8-checkbox {
+  %evo-form-8-checkbox {
  
-    @extend .evo-form-checkbox-base;  
+    @extend %evo-form-checkbox-base;  
 
     label {
     padding-left: 20px;
@@ -3108,9 +3110,9 @@
 
   /* CHECKBOX 9 */
 
-  .evo-form-9-checkbox {
+  %evo-form-9-checkbox {
  
-    @extend .evo-form-checkbox-base;  
+    @extend %evo-form-checkbox-base;  
 
     label {
     padding-left: 22px;
@@ -3139,9 +3141,9 @@
 
   /* CHECKBOX 10 */
 
-  .evo-form-10-checkbox {
+  %evo-form-10-checkbox {
  
-    @extend .evo-form-checkbox-base;  
+    @extend %evo-form-checkbox-base;  
 
     label {
     padding-left: 24px;
@@ -3170,9 +3172,9 @@
 
   /* CHECKBOX 11 */
 
-  .evo-form-11-checkbox {
+  %evo-form-11-checkbox {
  
-    @extend .evo-form-checkbox-base;  
+    @extend %evo-form-checkbox-base;  
 
     label {
     padding-left: 22px;
@@ -3201,9 +3203,9 @@
 
   /* CHECKBOX 12 */
 
-  .evo-form-12-checkbox {
+  %evo-form-12-checkbox {
  
-    @extend .evo-form-checkbox-base;  
+    @extend %evo-form-checkbox-base;  
 
     label {
     padding-left: 25px;
@@ -3232,9 +3234,9 @@
 
   /* CHECKBOX 13 */
 
-  .evo-form-13-checkbox {
+  %evo-form-13-checkbox {
  
-    @extend .evo-form-checkbox-base;  
+    @extend %evo-form-checkbox-base;  
 
     label {
     padding-left: 28px;
@@ -3264,9 +3266,9 @@
 
   /* CHECKBOX 14 */
 
-  .evo-form-14-checkbox {
+  %evo-form-14-checkbox {
  
-    @extend .evo-form-checkbox-base;  
+    @extend %evo-form-checkbox-base;  
 
     label {
     padding-left: 28px;
@@ -3295,9 +3297,9 @@
 
   /* CHECKBOX 15 */
 
-  .evo-form-15-checkbox {
+  %evo-form-15-checkbox {
  
-    @extend .evo-form-checkbox-base;  
+    @extend %evo-form-checkbox-base;  
 
     label {
     padding-left: 30px;
@@ -3326,9 +3328,9 @@
 
   /* CHECKBOX 16 */
 
-  .evo-form-16-checkbox {
+  %evo-form-16-checkbox {
  
-    @extend .evo-form-checkbox-base;  
+    @extend %evo-form-checkbox-base;  
 
     label {
     padding-left: 32px;
@@ -3357,9 +3359,9 @@
 
   /* CHECKBOX 17 */
 
-  .evo-form-17-checkbox {
+  %evo-form-17-checkbox {
  
-    @extend .evo-form-checkbox-base;  
+    @extend %evo-form-checkbox-base;  
 
     label {
     padding-left: 32px;
@@ -3388,9 +3390,9 @@
 
   /* CHECKBOX 18 */
 
-  .evo-form-18-checkbox {
+  %evo-form-18-checkbox {
  
-    @extend .evo-form-checkbox-base;  
+    @extend %evo-form-checkbox-base;  
 
     label {
     padding-left: 33px;
@@ -3419,9 +3421,9 @@
 
   /* CHECKBOX 19 */
 
-  .evo-form-19-checkbox {
+  %evo-form-19-checkbox {
  
-    @extend .evo-form-checkbox-base;  
+    @extend %evo-form-checkbox-base;  
 
     label {
     padding-left: 33px;
@@ -3450,9 +3452,9 @@
 
   /* CHECKBOX 20 */
 
-  .evo-form-20-checkbox {
+  %evo-form-20-checkbox {
  
-    @extend .evo-form-checkbox-base;  
+    @extend %evo-form-checkbox-base;  
 
     label {
     padding-left: 35px;
@@ -3481,9 +3483,9 @@
 
   /* CHECKBOX 21 */
 
-  .evo-form-21-checkbox {
+  %evo-form-21-checkbox {
  
-    @extend .evo-form-checkbox-base;  
+    @extend %evo-form-checkbox-base;  
 
     label {
     padding-left: 37px;
@@ -3512,9 +3514,9 @@
 
   /* CHECKBOX 22 */
 
-  .evo-form-22-checkbox {
+  %evo-form-22-checkbox {
  
-    @extend .evo-form-checkbox-base;  
+    @extend %evo-form-checkbox-base;  
 
     label {
     padding-left: 40px;
@@ -3543,9 +3545,9 @@
 
    /* CHECKBOX 23 */
 
-  .evo-form-23-checkbox {
+  %evo-form-23-checkbox {
  
-    @extend .evo-form-checkbox-base;  
+    @extend %evo-form-checkbox-base;  
 
     label {
     padding-left: 40px;
@@ -3574,9 +3576,9 @@
 
   /* CHECKBOX 24 */
 
-  .evo-form-24-checkbox {
+  %evo-form-24-checkbox {
  
-    @extend .evo-form-checkbox-base;  
+    @extend %evo-form-checkbox-base;  
 
     label {
     padding-left: 42px;
@@ -3605,9 +3607,9 @@
 
    /* CHECKBOX 25 */
 
-  .evo-form-25-checkbox {
+  %evo-form-25-checkbox {
  
-    @extend .evo-form-checkbox-base;  
+    @extend %evo-form-checkbox-base;  
 
     label {
     padding-left: 44px;
@@ -3636,9 +3638,9 @@
 
   /* CHECKBOX 26 */
 
-  .evo-form-26-checkbox {
+  %evo-form-26-checkbox {
  
-    @extend .evo-form-checkbox-base;  
+    @extend %evo-form-checkbox-base;  
 
     label {
     padding-left: 42px;
@@ -3667,9 +3669,9 @@
 
   /* CHECKBOX 27 */
 
-  .evo-form-27-checkbox {
+  %evo-form-27-checkbox {
  
-    @extend .evo-form-checkbox-base;  
+    @extend %evo-form-checkbox-base;  
 
     label {
     padding-left: 42px;
@@ -3698,9 +3700,9 @@
 
   /* CHECKBOX 28 */
 
-  .evo-form-28-checkbox {
+  %evo-form-28-checkbox {
  
-    @extend .evo-form-checkbox-base;  
+    @extend %evo-form-checkbox-base;  
 
     label {
     padding-left: 47px;
@@ -3729,9 +3731,9 @@
 
    /* CHECKBOX 29 */
 
-  .evo-form-29-checkbox {
+  %evo-form-29-checkbox {
  
-    @extend .evo-form-checkbox-base;  
+    @extend %evo-form-checkbox-base;  
 
     label {
     padding-left: 47px;
@@ -3760,9 +3762,9 @@
 
   /* CHECKBOX 30 */
 
-  .evo-form-30-checkbox {
+  %evo-form-30-checkbox {
  
-    @extend .evo-form-checkbox-base;  
+    @extend %evo-form-checkbox-base;  
 
     label {
     padding-left: 48px;
@@ -3790,215 +3792,216 @@
 
 
 // This class names below are targeting specific form type that we want to use.
-// For example if we didn't have .evo-form-1-text as shown below, we wouldn't be 
-// able to use it in HTML as we are using it now. So .evo-form-1-text wouldn' be valid.
+// For example if we didn't have %evo-form-1-text as shown below, we wouldn't be 
+// able to use it in HTML as we are using it now. So %evo-form-1-text wouldn' be valid.
 
-.evo-form-1-text,
-.evo-form-1-dropdown,
-.evo-form-1-date,
-.evo-form-1-input,
-.evo-form-1-number,
-.evo-form-1-time       { @extend .evo-form-1; }
+%evo-form-1-text,
+%evo-form-1-dropdown,
+%evo-form-1-date,
+%evo-form-1-input,
+%evo-form-1-number,
+%evo-form-1-time       { @extend %evo-form-1; }
 
-.evo-form-2-text,
-.evo-form-2-dropdown,
-.evo-form-2-date,
-.evo-form-2-input,
-.evo-form-2-number,
-.evo-form-2-time       { @extend .evo-form-2; }
+%evo-form-2-text,
+%evo-form-2-dropdown,
+%evo-form-2-date,
+%evo-form-2-input,
+%evo-form-2-number,
+%evo-form-2-time       { @extend %evo-form-2; }
 
-.evo-form-3-text,
-.evo-form-3-dropdown,
-.evo-form-3-date,
-.evo-form-3-input,
-.evo-form-3-number,
-.evo-form-3-time       { @extend .evo-form-3; }
+%evo-form-3-text,
+%evo-form-3-dropdown,
+%evo-form-3-date,
+%evo-form-3-input,
+%evo-form-3-number,
+%evo-form-3-time       { @extend %evo-form-3; }
 
-.evo-form-4-text,
-.evo-form-4-dropdown,
-.evo-form-4-date,
-.evo-form-4-input,
-.evo-form-4-number,
-.evo-form-4-time       { @extend .evo-form-4; }
+%evo-form-4-text,
+%evo-form-4-dropdown,
+%evo-form-4-date,
+%evo-form-4-input,
+%evo-form-4-number,
+%evo-form-4-time       { @extend %evo-form-4; }
 
-.evo-form-5-text,
-.evo-form-5-dropdown,
-.evo-form-5-date,
-.evo-form-5-input,
-.evo-form-5-number,
-.evo-form-5-time       { @extend .evo-form-5; }
+%evo-form-5-text,
+%evo-form-5-dropdown,
+%evo-form-5-date,
+%evo-form-5-input,
+%evo-form-5-number,
+%evo-form-5-time       { @extend %evo-form-5; }
 
-.evo-form-6-text,
-.evo-form-6-dropdown,
-.evo-form-6-date,
-.evo-form-6-input,
-.evo-form-6-number,
-.evo-form-6-time       { @extend .evo-form-6; }
+%evo-form-6-text,
+%evo-form-6-dropdown,
+%evo-form-6-date,
+%evo-form-6-input,
+%evo-form-6-number,
+%evo-form-6-time       { @extend %evo-form-6; }
 
-.evo-form-7-text,
-.evo-form-7-dropdown,
-.evo-form-7-date,
-.evo-form-7-input,
-.evo-form-7-number,
-.evo-form-7-time       { @extend .evo-form-7; }
+%evo-form-7-text,
+%evo-form-7-dropdown,
+%evo-form-7-date,
+%evo-form-7-input,
+%evo-form-7-number,
+%evo-form-7-time       { @extend %evo-form-7; }
 
-.evo-form-8-text,
-.evo-form-8-dropdown,
-.evo-form-8-date,
-.evo-form-8-input,
-.evo-form-8-number,
-.evo-form-8-time       { @extend .evo-form-8; }
+%evo-form-8-text,
+%evo-form-8-dropdown,
+%evo-form-8-date,
+%evo-form-8-input,
+%evo-form-8-number,
+%evo-form-8-time       { @extend %evo-form-8; }
 
-.evo-form-9-text,
-.evo-form-9-dropdown,
-.evo-form-9-date,
-.evo-form-9-input,
-.evo-form-9-number,
-.evo-form-9-time       { @extend .evo-form-9; }
+%evo-form-9-text,
+%evo-form-9-dropdown,
+%evo-form-9-date,
+%evo-form-9-input,
+%evo-form-9-number,
+%evo-form-9-time       { @extend %evo-form-9; }
 
-.evo-form-10-text,
-.evo-form-10-dropdown,
-.evo-form-10-date,
-.evo-form-10-input,
-.evo-form-10-number,
-.evo-form-10-time       { @extend .evo-form-10; }
+%evo-form-10-text,
+%evo-form-10-dropdown,
+%evo-form-10-date,
+%evo-form-10-input,
+%evo-form-10-number,
+%evo-form-10-time       { @extend %evo-form-10; }
 
-.evo-form-11-text,
-.evo-form-11-dropdown,
-.evo-form-11-date,
-.evo-form-11-input,
-.evo-form-11-number,
-.evo-form-11-time       { @extend .evo-form-11; }
 
-.evo-form-12-text,
-.evo-form-12-dropdown,
-.evo-form-12-date,
-.evo-form-12-input,
-.evo-form-12-number,
-.evo-form-12-time       { @extend .evo-form-12; }
+%evo-form-11-text,
+%evo-form-11-dropdown,
+%evo-form-11-date,
+%evo-form-11-input,
+%evo-form-11-number,
+%evo-form-11-time       { @extend %evo-form-11; }
 
-.evo-form-13-text,
-.evo-form-13-dropdown,
-.evo-form-13-date,
-.evo-form-13-input,
-.evo-form-13-number,
-.evo-form-13-time       { @extend .evo-form-13; }
+%evo-form-12-text,
+%evo-form-12-dropdown,
+%evo-form-12-date,
+%evo-form-12-input,
+%evo-form-12-number,
+%evo-form-12-time       { @extend %evo-form-12; }
 
-.evo-form-14-text,
-.evo-form-14-dropdown,
-.evo-form-14-date,
-.evo-form-14-input,
-.evo-form-14-number,
-.evo-form-14-time       { @extend .evo-form-14; }
+%evo-form-13-text,
+%evo-form-13-dropdown,
+%evo-form-13-date,
+%evo-form-13-input,
+%evo-form-13-number,
+%evo-form-13-time       { @extend %evo-form-13; }
 
-.evo-form-15-text,
-.evo-form-15-dropdown,
-.evo-form-15-date,
-.evo-form-15-input,
-.evo-form-15-number,
-.evo-form-15-time       { @extend .evo-form-15; }
+%evo-form-14-text,
+%evo-form-14-dropdown,
+%evo-form-14-date,
+%evo-form-14-input,
+%evo-form-14-number,
+%evo-form-14-time       { @extend %evo-form-14; }
 
-.evo-form-16-text,
-.evo-form-16-dropdown,
-.evo-form-16-date,
-.evo-form-16-input,
-.evo-form-16-number,
-.evo-form-16-time       { @extend .evo-form-16; }
+%evo-form-15-text,
+%evo-form-15-dropdown,
+%evo-form-15-date,
+%evo-form-15-input,
+%evo-form-15-number,
+%evo-form-15-time       { @extend %evo-form-15; }
 
-.evo-form-17-text,
-.evo-form-17-dropdown,
-.evo-form-17-date,
-.evo-form-17-input,
-.evo-form-17-number,
-.evo-form-17-time       { @extend .evo-form-17; }
+%evo-form-16-text,
+%evo-form-16-dropdown,
+%evo-form-16-date,
+%evo-form-16-input,
+%evo-form-16-number,
+%evo-form-16-time       { @extend %evo-form-16; }
 
-.evo-form-18-text,
-.evo-form-18-dropdown,
-.evo-form-18-date,
-.evo-form-18-input,
-.evo-form-18-number,
-.evo-form-18-time       { @extend .evo-form-18; }
+%evo-form-17-text,
+%evo-form-17-dropdown,
+%evo-form-17-date,
+%evo-form-17-input,
+%evo-form-17-number,
+%evo-form-17-time       { @extend %evo-form-17; }
 
-.evo-form-19-text,
-.evo-form-19-dropdown,
-.evo-form-19-date,
-.evo-form-19-input,
-.evo-form-19-number,
-.evo-form-19-time       { @extend .evo-form-19; }
+%evo-form-18-text,
+%evo-form-18-dropdown,
+%evo-form-18-date,
+%evo-form-18-input,
+%evo-form-18-number,
+%evo-form-18-time       { @extend %evo-form-18; }
 
-.evo-form-20-text,
-.evo-form-20-dropdown,
-.evo-form-20-date,
-.evo-form-20-input,
-.evo-form-20-number,
-.evo-form-20-time       { @extend .evo-form-20; }
+%evo-form-19-text,
+%evo-form-19-dropdown,
+%evo-form-19-date,
+%evo-form-19-input,
+%evo-form-19-number,
+%evo-form-19-time       { @extend %evo-form-19; }
 
-.evo-form-21-text,
-.evo-form-21-dropdown,
-.evo-form-21-date,
-.evo-form-21-input,
-.evo-form-21-number,
-.evo-form-21-time       { @extend .evo-form-21; }
+%evo-form-20-text,
+%evo-form-20-dropdown,
+%evo-form-20-date,
+%evo-form-20-input,
+%evo-form-20-number,
+%evo-form-20-time       { @extend %evo-form-20; }
 
-.evo-form-22-text,
-.evo-form-22-dropdown,
-.evo-form-22-date,
-.evo-form-22-input,
-.evo-form-22-number,
-.evo-form-22-time       { @extend .evo-form-22; }
+%evo-form-21-text,
+%evo-form-21-dropdown,
+%evo-form-21-date,
+%evo-form-21-input,
+%evo-form-21-number,
+%evo-form-21-time       { @extend %evo-form-21; }
 
-.evo-form-23-text,
-.evo-form-23-dropdown,
-.evo-form-23-date,
-.evo-form-23-input,
-.evo-form-23-number,
-.evo-form-23-time       { @extend .evo-form-23; }
+%evo-form-22-text,
+%evo-form-22-dropdown,
+%evo-form-22-date,
+%evo-form-22-input,
+%evo-form-22-number,
+%evo-form-22-time       { @extend %evo-form-22; }
 
-.evo-form-24-text,
-.evo-form-24-dropdown,
-.evo-form-24-date,
-.evo-form-24-input,
-.evo-form-24-number,
-.evo-form-24-time       { @extend .evo-form-24; }
+%evo-form-23-text,
+%evo-form-23-dropdown,
+%evo-form-23-date,
+%evo-form-23-input,
+%evo-form-23-number,
+%evo-form-23-time       { @extend %evo-form-23; }
 
-.evo-form-25-text,
-.evo-form-25-dropdown,
-.evo-form-25-date,
-.evo-form-25-input,
-.evo-form-25-number,
-.evo-form-25-time       { @extend .evo-form-25; }
+%evo-form-24-text,
+%evo-form-24-dropdown,
+%evo-form-24-date,
+%evo-form-24-input,
+%evo-form-24-number,
+%evo-form-24-time       { @extend %evo-form-24; }
 
-.evo-form-26-text,
-.evo-form-26-dropdown,
-.evo-form-26-date,
-.evo-form-26-input,
-.evo-form-26-number,
-.evo-form-26-time       { @extend .evo-form-26; }
+%evo-form-25-text,
+%evo-form-25-dropdown,
+%evo-form-25-date,
+%evo-form-25-input,
+%evo-form-25-number,
+%evo-form-25-time       { @extend %evo-form-25; }
 
-.evo-form-27-text,
-.evo-form-27-dropdown,
-.evo-form-27-date,
-.evo-form-27-input,
-.evo-form-27-number,
-.evo-form-27-time       { @extend .evo-form-27; }
+%evo-form-26-text,
+%evo-form-26-dropdown,
+%evo-form-26-date,
+%evo-form-26-input,
+%evo-form-26-number,
+%evo-form-26-time       { @extend %evo-form-26; }
 
-.evo-form-28-text,
-.evo-form-28-dropdown,
-.evo-form-28-date,
-.evo-form-28-input,
-.evo-form-28-number,
-.evo-form-28-time       { @extend .evo-form-28; }
+%evo-form-27-text,
+%evo-form-27-dropdown,
+%evo-form-27-date,
+%evo-form-27-input,
+%evo-form-27-number,
+%evo-form-27-time       { @extend %evo-form-27; }
 
-.evo-form-29-text,
-.evo-form-29-dropdown,
-.evo-form-29-date,
-.evo-form-29-input,
-.evo-form-29-number,
-.evo-form-29-time       { @extend .evo-form-29; }
+%evo-form-28-text,
+%evo-form-28-dropdown,
+%evo-form-28-date,
+%evo-form-28-input,
+%evo-form-28-number,
+%evo-form-28-time       { @extend %evo-form-28; }
 
-.evo-form-30-text,
-.evo-form-30-dropdown,
-.evo-form-30-date,
-.evo-form-30-input,
-.evo-form-30-number,
-.evo-form-30-time       { @extend .evo-form-30; }
+%evo-form-29-text,
+%evo-form-29-dropdown,
+%evo-form-29-date,
+%evo-form-29-input,
+%evo-form-29-number,
+%evo-form-29-time       { @extend %evo-form-29; }
+
+%evo-form-30-text,
+%evo-form-30-dropdown,
+%evo-form-30-date,
+%evo-form-30-input,
+%evo-form-30-number,
+%evo-form-30-time       { @extend %evo-form-30; }

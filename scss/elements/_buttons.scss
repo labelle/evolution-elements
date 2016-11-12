@@ -13,7 +13,7 @@
 
 /* BUTTON 1 */
 
-.evo-button-1-base {
+%evo-button-1-base {
      display: inline-block;
      padding-top: .6rem;
      padding-bottom: .65rem;
@@ -21,24 +21,24 @@
      padding-right: $button_padding_right+$button_padding_right_increment*5rem;
      font-size: $button_font_size+$button_font_size_increment*2rem;
      border: $button_border_1;
-  
+     
 }
-.evo-button-1 {
-     @extend .evo-button-1-base;
+%evo-button-1 {
+     @extend %evo-button-1-base;
      line-height: $button_line_height_1;
 }
-.evo-button-1-bold {
-     @extend .evo-button-1-base;
+%evo-button-1-bold {
+     @extend %evo-button-1-base;
      font-weight: bold;
      line-height: $button_line_height_1;
 }
-.evo-button-1-caps {
-     @extend .evo-button-1-base;
+%evo-button-1-caps {
+     @extend %evo-button-1-base;
      text-transform: uppercase;
      line-height: $button_line_height_1;
 }
-.evo-button-1-bold-caps {
-     @extend .evo-button-1-base;
+%evo-button-1-bold-caps {
+     @extend %evo-button-1-base;
      text-transform: uppercase;
      font-weight: bold;
      line-height: $button_line_height_1;
@@ -50,7 +50,7 @@
 
 /* BUTTON 2 */
 
-.evo-button-2-base {
+%evo-button-2-base {
      display:inline-block;
      padding-top: .7rem;
      padding-bottom: .7rem;
@@ -58,24 +58,24 @@
      padding-right: $button_padding_right+$button_padding_right_increment*6rem;
      font-size: $button_font_size+$button_font_size_increment*3rem;
      border: $button_border_1;
-  
+     
 }
-.evo-button-2 {
-     @extend .evo-button-2-base;
+%evo-button-2 {
+     @extend %evo-button-2-base;
      line-height: $button_line_height_1;
 }
-.evo-button-2-bold {
-     @extend .evo-button-2-base;
+%evo-button-2-bold {
+     @extend %evo-button-2-base;
      font-weight: bold;
      line-height: $button_line_height_1;
 }
-.evo-button-2-caps {
-     @extend .evo-button-2-base;
+%evo-button-2-caps {
+     @extend %evo-button-2-base;
      text-transform: uppercase;
      line-height: $button_line_height_1;
 }
-.evo-button-2-bold-caps {
-     @extend .evo-button-2-base;
+%evo-button-2-bold-caps {
+     @extend %evo-button-2-base;
      text-transform: uppercase;
      font-weight: bold;
      line-height: $button_line_height_1;
@@ -87,7 +87,7 @@
 
 /* BUTTON 3 */
 
-.evo-button-3-base {
+%evo-button-3-base {
      display:inline-block;
      padding-top: $button_padding_top+$button_padding_top_increment*(4*.1rem)/5;
      padding-bottom: $button_padding_bottom+$button_padding_bottom_increment*(4*.6rem)/2;
@@ -95,24 +95,24 @@
      padding-right: $button_padding_right+$button_padding_right_increment*6rem;
      font-size: $button_font_size+$button_font_size_increment*4rem;
      border: $button_border_1;
-  
+     
 }
-.evo-button-3 {
-     @extend .evo-button-3-base;
+%evo-button-3 {
+     @extend %evo-button-3-base;
      line-height: $button_line_height_1;
 }
-.evo-button-3-bold {
-     @extend .evo-button-3-base;
+%evo-button-3-bold {
+     @extend %evo-button-3-base;
      font-weight: bold;
      line-height: $button_line_height_1;
 }
-.evo-button-3-caps {
-     @extend .evo-button-3-base;
+%evo-button-3-caps {
+     @extend %evo-button-3-base;
      text-transform: uppercase;
      line-height: $button_line_height_1;
 }
-.evo-button-3-bold-caps {
-     @extend .evo-button-3-base;
+%evo-button-3-bold-caps {
+     @extend %evo-button-3-base;
      text-transform: uppercase;
      font-weight: bold;
      line-height: $button_line_height_1;
@@ -124,7 +124,7 @@
 
 /* BUTTON 4 */
 
-.evo-button-4-base {
+%evo-button-4-base {
      display:inline-block;
      padding-top: $button_padding_top+$button_padding_top_increment*(5*1rem)/2;
      padding-bottom: $button_padding_bottom+$button_padding_bottom_increment*(5*1.4rem)/2;
@@ -132,24 +132,24 @@
      padding-right: $button_padding_right+$button_padding_right_increment*7rem;
      font-size: $button_font_size+$button_font_size_increment*5rem;
      border: $button_border_1;
-  
+     
 }
-.evo-button-4 {
-     @extend .evo-button-4-base;
+%evo-button-4 {
+     @extend %evo-button-4-base;
      line-height: $button_line_height_1;
 }
-.evo-button-4-bold {
-     @extend .evo-button-4-base;
+%evo-button-4-bold {
+     @extend %evo-button-4-base;
      font-weight: bold;
      line-height: $button_line_height_1;
 }
-.evo-button-4-caps {
-     @extend .evo-button-4-base;
+%evo-button-4-caps {
+     @extend %evo-button-4-base;
      text-transform: uppercase;
      line-height: $button_line_height_1;
 }
-.evo-button-4-bold-caps {
-     @extend .evo-button-4-base;
+%evo-button-4-bold-caps {
+     @extend %evo-button-4-base;
      text-transform: uppercase;
      font-weight: bold;
      line-height: $button_line_height_1;
@@ -161,7 +161,7 @@
 
 /* BUTTON 5 */
 
-.evo-button-5-base {
+%evo-button-5-base {
      display:inline-block;
      padding-top: $button_padding_top+$button_padding_top_increment*(6*1.1rem)/2;
      padding-bottom: $button_padding_bottom+$button_padding_bottom_increment*(6*1.5rem)/2;
@@ -169,24 +169,24 @@
      padding-right: $button_padding_right+$button_padding_right_increment*8.5rem;
      font-size: $button_font_size+$button_font_size_increment*6rem;
      border: $button_border_1;
-  
+     
 }
-.evo-button-5 {
-     @extend .evo-button-5-base;
+%evo-button-5 {
+     @extend %evo-button-5-base;
      line-height: $button_line_height_1;
 }
-.evo-button-5-bold {
-     @extend .evo-button-5-base;
+%evo-button-5-bold {
+     @extend %evo-button-5-base;
      font-weight: bold;
      line-height: $button_line_height_1;
 }
-.evo-button-5-caps {
-     @extend .evo-button-5-base;
+%evo-button-5-caps {
+     @extend %evo-button-5-base;
      text-transform: uppercase;
      line-height: $button_line_height_1;
 }
-.evo-button-5-bold-caps {
-     @extend .evo-button-5-base;
+%evo-button-5-bold-caps {
+     @extend %evo-button-5-base;
      text-transform: uppercase;
      font-weight: bold;
      line-height: $button_line_height_1;
@@ -198,7 +198,7 @@
 
 /* BUTTON 6 */
 
-.evo-button-6-base {
+%evo-button-6-base {
      display:inline-block;
      padding-top: $button_padding_top+$button_padding_top_increment*(7*1.1rem)/2;
      padding-bottom: $button_padding_bottom+$button_padding_bottom_increment*(7*1.5rem)/2;
@@ -206,24 +206,24 @@
      padding-right: $button_padding_right+$button_padding_right_increment*8rem;
      font-size: $button_font_size+$button_font_size_increment*7rem;
      border: $button_border_1;
-  
+     
 }
-.evo-button-6 {
-     @extend .evo-button-6-base;
+%evo-button-6 {
+     @extend %evo-button-6-base;
      line-height: $button_line_height_1;
 }
-.evo-button-6-bold {
-     @extend .evo-button-6-base;
+%evo-button-6-bold {
+     @extend %evo-button-6-base;
      font-weight: bold;
      line-height: $button_line_height_1;
 }
-.evo-button-6-caps {
-     @extend .evo-button-6-base;
+%evo-button-6-caps {
+     @extend %evo-button-6-base;
      text-transform: uppercase;
      line-height: $button_line_height_1;
 }
-.evo-button-6-bold-caps {
-     @extend .evo-button-6-base;
+%evo-button-6-bold-caps {
+     @extend %evo-button-6-base;
      text-transform: uppercase;
      font-weight: bold;
      line-height: $button_line_height_1;
@@ -235,7 +235,7 @@
 
 /* BUTTON 7 */
 
-.evo-button-7-base {
+%evo-button-7-base {
      display:inline-block;
      padding-top: $button_padding_top+$button_padding_top_increment*(8*1.7rem)/2;
      padding-bottom: $button_padding_bottom+$button_padding_bottom_increment*(8*1.7rem)/2;
@@ -243,24 +243,24 @@
      padding-right: $button_padding_right+$button_padding_right_increment*9rem;
      font-size: $button_font_size+$button_font_size_increment*8rem;
      border: $button_border_1;
-  
+     
 }
-.evo-button-7 {
-     @extend .evo-button-7-base;
+%evo-button-7 {
+     @extend %evo-button-7-base;
      line-height: $button_line_height_1;
 }
-.evo-button-7-bold {
-     @extend .evo-button-7-base;
+%evo-button-7-bold {
+     @extend %evo-button-7-base;
      font-weight: bold;
      line-height: $button_line_height_1;
 }
-.evo-button-7-caps {
-     @extend .evo-button-7-base;
+%evo-button-7-caps {
+     @extend %evo-button-7-base;
      text-transform: uppercase;
      line-height: $button_line_height_1;
 }
-.evo-button-7-bold-caps {
-     @extend .evo-button-7-base;
+%evo-button-7-bold-caps {
+     @extend %evo-button-7-base;
      text-transform: uppercase;
      font-weight: bold;
      line-height: $button_line_height_1;
@@ -272,7 +272,7 @@
 
 /* BUTTON 8 */
 
-.evo-button-8-base {
+%evo-button-8-base {
      display:inline-block;
      padding-top: $button_padding_top+$button_padding_top_increment*(9*1.4rem)/2;
      padding-bottom: $button_padding_bottom+$button_padding_bottom_increment*(9*1.8rem)/2;
@@ -280,24 +280,24 @@
      padding-right: $button_padding_right+$button_padding_right_increment*10rem;
      font-size: $button_font_size+$button_font_size_increment*9rem;
      border: $button_border_1;
-  
+     
 }
-.evo-button-8 {
-     @extend .evo-button-8-base;
+%evo-button-8 {
+     @extend %evo-button-8-base;
      line-height: $button_line_height_1;
 }
-.evo-button-8-bold {
-     @extend .evo-button-8-base;
+%evo-button-8-bold {
+     @extend %evo-button-8-base;
      font-weight: bold;
      line-height: $button_line_height_1;
 }
-.evo-button-8-caps {
-     @extend .evo-button-8-base;
+%evo-button-8-caps {
+     @extend %evo-button-8-base;
      text-transform: uppercase;
      line-height: $button_line_height_1;
 }
-.evo-button-8-bold-caps {
-     @extend .evo-button-8-base;
+%evo-button-8-bold-caps {
+     @extend %evo-button-8-base;
      text-transform: uppercase;
      font-weight: bold;
      line-height: $button_line_height_1;
@@ -309,7 +309,7 @@
 
 /* BUTTON 9 */
 
-.evo-button-9-base {
+%evo-button-9-base {
      display:inline-block;
      padding-top: $button_padding_top+$button_padding_top_increment*(9*1.4rem)/2;
      padding-bottom: $button_padding_bottom+$button_padding_bottom_increment*(9*1.8rem)/2;
@@ -317,24 +317,24 @@
      padding-right: $button_padding_right+$button_padding_right_increment*10rem;
      font-size: $button_font_size+$button_font_size_increment*10rem;
      border: $button_border_1;
-  
+     
 }
-.evo-button-9 {
-     @extend .evo-button-9-base;
+%evo-button-9 {
+     @extend %evo-button-9-base;
      line-height: $button_line_height_1;
 }
-.evo-button-9-bold {
-     @extend .evo-button-9-base;
+%evo-button-9-bold {
+     @extend %evo-button-9-base;
      font-weight: bold;
      line-height: $button_line_height_1;
 }
-.evo-button-9-caps {
-     @extend .evo-button-9-base;
+%evo-button-9-caps {
+     @extend %evo-button-9-base;
      text-transform: uppercase;
      line-height: $button_line_height_1;
 }
-.evo-button-9-bold-caps {
-     @extend .evo-button-9-base;
+%evo-button-9-bold-caps {
+     @extend %evo-button-9-base;
      text-transform: uppercase;
      font-weight: bold;
      line-height: $button_line_height_1;
@@ -346,7 +346,7 @@
 
 /* BUTTON 10 */
 
-.evo-button-10-base {
+%evo-button-10-base {
      display:inline-block;
      padding-top: $button_padding_top+$button_padding_top_increment*(13*1.2rem)/2;
      padding-bottom: $button_padding_bottom+$button_padding_bottom_increment*(12*1.2rem)/2;
@@ -354,24 +354,24 @@
      padding-right: $button_padding_right+$button_padding_right_increment*11rem;
      font-size: $button_font_size+$button_font_size_increment*11rem;
      border: $button_border_1;
-  
+     
 }
-.evo-button-10 {
-     @extend .evo-button-10-base;
+%evo-button-10 {
+     @extend %evo-button-10-base;
      line-height: $button_line_height_1;
 }
-.evo-button-10-bold {
-     @extend .evo-button-10-base;
+%evo-button-10-bold {
+     @extend %evo-button-10-base;
      font-weight: bold;
      line-height: $button_line_height_1;
 }
-.evo-button-10-caps {
-     @extend .evo-button-10-base;
+%evo-button-10-caps {
+     @extend %evo-button-10-base;
      text-transform: uppercase;
      line-height: $button_line_height_1;
 }
-.evo-button-10-bold-caps {
-     @extend .evo-button-10-base;
+%evo-button-10-bold-caps {
+     @extend %evo-button-10-base;
      text-transform: uppercase;
      font-weight: bold;
      line-height: $button_line_height_1;
@@ -383,7 +383,7 @@
 
 /* BUTTON 11 */
 
-.evo-button-11-base {
+%evo-button-11-base {
      display:inline-block;
      padding-top: $button_padding_top+$button_padding_top_increment*(12*1.3rem)/2;
      padding-bottom: $button_padding_bottom+$button_padding_bottom_increment*(12*1.4rem)/2;
@@ -391,24 +391,24 @@
      padding-right: $button_padding_right+$button_padding_right_increment*12rem;
      font-size: $button_font_size+$button_font_size_increment*12rem;
      border: $button_border_1;
-  
+     
 }
-.evo-button-11 {
-     @extend .evo-button-11-base;
+%evo-button-11 {
+     @extend %evo-button-11-base;
      line-height: $button_line_height_1;
 }
-.evo-button-11-bold {
-     @extend .evo-button-11-base;
+%evo-button-11-bold {
+     @extend %evo-button-11-base;
      font-weight: bold;
      line-height: $button_line_height_1;
 }
-.evo-button-11-caps {
-     @extend .evo-button-11-base;
+%evo-button-11-caps {
+     @extend %evo-button-11-base;
      text-transform: uppercase;
      line-height: $button_line_height_1;
 }
-.evo-button-11-bold-caps {
-     @extend .evo-button-11-base;
+%evo-button-11-bold-caps {
+     @extend %evo-button-11-base;
      text-transform: uppercase;
      font-weight: bold;
      line-height: $button_line_height_1;
@@ -420,7 +420,7 @@
 
 /* BUTTON 12 */
 
-.evo-button-12-base {
+%evo-button-12-base {
      display:inline-block;
      padding-top: $button_padding_top+$button_padding_top_increment*(13*1.35rem)/2;
      padding-bottom: $button_padding_bottom+$button_padding_bottom_increment*(13*1.45rem)/2;
@@ -428,24 +428,24 @@
      padding-right: $button_padding_right+$button_padding_right_increment*13rem;
      font-size: $button_font_size+$button_font_size_increment*13rem;
      border: $button_border_1;
-  
+     
 }
-.evo-button-12 {
-     @extend .evo-button-12-base;
+%evo-button-12 {
+     @extend %evo-button-12-base;
      line-height: $button_line_height_1;
 }
-.evo-button-12-bold {
-     @extend .evo-button-12-base;
+%evo-button-12-bold {
+     @extend %evo-button-12-base;
      font-weight: bold;
      line-height: $button_line_height_1;
 }
-.evo-button-12-caps {
-     @extend .evo-button-12-base;
+%evo-button-12-caps {
+     @extend %evo-button-12-base;
      text-transform: uppercase;
      line-height: $button_line_height_1;
 }
-.evo-button-12-bold-caps {
-     @extend .evo-button-12-base;
+%evo-button-12-bold-caps {
+     @extend %evo-button-12-base;
      text-transform: uppercase;
      font-weight: bold;
      line-height: $button_line_height_1;
@@ -457,7 +457,7 @@
 
 /* BUTTON 13 */
 
-.evo-button-13-base {
+%evo-button-13-base {
      display:inline-block;
      padding-top: $button_padding_top+$button_padding_top_increment*(14*1.3rem)/2;
      padding-bottom: $button_padding_bottom+$button_padding_bottom_increment*(14*1.45rem)/2;
@@ -466,24 +466,24 @@
      font-size: $button_font_size+$button_font_size_increment*14rem;
      letter-spacing: -.1rem;
      border: $button_border_2;
-  
+     
 }
-.evo-button-13 {
-     @extend .evo-button-13-base;
+%evo-button-13 {
+     @extend %evo-button-13-base;
      line-height: $button_line_height_2;
 }
-.evo-button-13-bold {
-     @extend .evo-button-13-base;
+%evo-button-13-bold {
+     @extend %evo-button-13-base;
      font-weight: bold;
      line-height: $button_line_height_2;
 }
-.evo-button-13-caps {
-     @extend .evo-button-13-base;
+%evo-button-13-caps {
+     @extend %evo-button-13-base;
      text-transform: uppercase;
      line-height: $button_line_height_2;
 }
-.evo-button-13-bold-caps {
-     @extend .evo-button-13-base;
+%evo-button-13-bold-caps {
+     @extend %evo-button-13-base;
      text-transform: uppercase;
      font-weight: bold;
      line-height: $button_line_height_2;
@@ -495,7 +495,7 @@
 
 /* BUTTON 14 */
 
-.evo-button-14-base {
+%evo-button-14-base {
      display:inline-block;
      padding-top: $button_padding_top+$button_padding_top_increment*(15*1.5rem)/2;
      padding-bottom: $button_padding_bottom+$button_padding_bottom_increment*(15*1.45rem)/2;
@@ -504,24 +504,24 @@
      font-size: $button_font_size+$button_font_size_increment*15rem;
      letter-spacing: -.1rem;
      border: $button_border_2;
-  
+     
 }
-.evo-button-14 {
-     @extend .evo-button-14-base;
+%evo-button-14 {
+     @extend %evo-button-14-base;
      line-height: $button_line_height_2;
 }
-.evo-button-14-bold {
-     @extend .evo-button-14-base;
+%evo-button-14-bold {
+     @extend %evo-button-14-base;
      font-weight: bold;
      line-height: $button_line_height_2;
 }
-.evo-button-14-caps {
-     @extend .evo-button-14-base;
+%evo-button-14-caps {
+     @extend %evo-button-14-base;
      text-transform: uppercase;
      line-height: $button_line_height_2;
 }
-.evo-button-14-bold-caps {
-     @extend .evo-button-14-base;
+%evo-button-14-bold-caps {
+     @extend %evo-button-14-base;
      text-transform: uppercase;
      font-weight: bold;
      line-height: $button_line_height_2;
@@ -533,7 +533,7 @@
 
 /* BUTTON 15 */
 
-.evo-button-15-base {
+%evo-button-15-base {
      display:inline-block;
      padding-top: $button_padding_top+$button_padding_top_increment*(16*1.5rem)/2;
      padding-bottom: $button_padding_bottom+$button_padding_bottom_increment*(16*1.5rem)/2;
@@ -542,24 +542,24 @@
      font-size: $button_font_size+$button_font_size_increment*16rem;
      letter-spacing: -.1rem;
      border: $button_border_2;
-  
+     
 }
-.evo-button-15 {
-     @extend .evo-button-15-base;
+%evo-button-15 {
+     @extend %evo-button-15-base;
      line-height: $button_line_height_2;
 }
-.evo-button-15-bold {
-     @extend .evo-button-15-base;
+%evo-button-15-bold {
+     @extend %evo-button-15-base;
      font-weight: bold;
      line-height: $button_line_height_2;
 }
-.evo-button-15-caps {
-     @extend .evo-button-15-base;
+%evo-button-15-caps {
+     @extend %evo-button-15-base;
      text-transform: uppercase;
      line-height: $button_line_height_2;
 }
-.evo-button-15-bold-caps {
-     @extend .evo-button-15-base;
+%evo-button-15-bold-caps {
+     @extend %evo-button-15-base;
      text-transform: uppercase;
      font-weight: bold;
      line-height: $button_line_height_2;
@@ -571,7 +571,7 @@
 
 /* BUTTON 16 */
 
-.evo-button-16-base {
+%evo-button-16-base {
      display:inline-block;
      padding-top: $button_padding_top+$button_padding_top_increment*(17*1.7rem)/2;
      padding-bottom: $button_padding_bottom+$button_padding_bottom_increment*(17*1.85rem)/2;
@@ -580,24 +580,24 @@
      font-size: $button_font_size+$button_font_size_increment*17rem;
      letter-spacing: -.1rem;
      border: $button_border_2;
-  
+     
 }
-.evo-button-16 {
-     @extend .evo-button-16-base;
+%evo-button-16 {
+     @extend %evo-button-16-base;
      line-height: $button_line_height_2;
 }
-.evo-button-16-bold {
-     @extend .evo-button-16-base;
+%evo-button-16-bold {
+     @extend %evo-button-16-base;
      font-weight: bold;
      line-height: $button_line_height_2;
 }
-.evo-button-16-caps {
-     @extend .evo-button-16-base;
+%evo-button-16-caps {
+     @extend %evo-button-16-base;
      text-transform: uppercase;
      line-height: $button_line_height_2;
 }
-.evo-button-16-bold-caps {
-     @extend .evo-button-16-base;
+%evo-button-16-bold-caps {
+     @extend %evo-button-16-base;
      text-transform: uppercase;
      font-weight: bold;
      line-height: $button_line_height_2;
@@ -609,7 +609,7 @@
 
 /* BUTTON 17 */
 
-.evo-button-17-base {
+%evo-button-17-base {
      display:inline-block;
      padding-top: $button_padding_top+$button_padding_top_increment*(18*1.7rem)/2;
      padding-bottom: $button_padding_bottom+$button_padding_bottom_increment*(18*1.90rem)/2;
@@ -618,24 +618,24 @@
      font-size: $button_font_size+$button_font_size_increment*18rem;
      letter-spacing: -.1rem;
      border: $button_border_2;
-  
+     
 }
-.evo-button-17 {
-     @extend .evo-button-17-base;
+%evo-button-17 {
+     @extend %evo-button-17-base;
      line-height: $button_line_height_2;
 }
-.evo-button-17-bold {
-     @extend .evo-button-17-base;
+%evo-button-17-bold {
+     @extend %evo-button-17-base;
      font-weight: bold;
      line-height: $button_line_height_2;
 }
-.evo-button-17-caps {
-     @extend .evo-button-17-base;
+%evo-button-17-caps {
+     @extend %evo-button-17-base;
      text-transform: uppercase;
      line-height: $button_line_height_2;
 }
-.evo-button-17-bold-caps {
-     @extend .evo-button-17-base;
+%evo-button-17-bold-caps {
+     @extend %evo-button-17-base;
      text-transform: uppercase;
      font-weight: bold;
      line-height: $button_line_height_2;
@@ -648,7 +648,7 @@
 
 /* BUTTON 18 */
 
-.evo-button-18-base {
+%evo-button-18-base {
      display:inline-block;
      padding-top: $button_padding_top+$button_padding_top_increment*(19*1.8rem)/2;
      padding-bottom: $button_padding_bottom+$button_padding_bottom_increment*(19*1.9rem)/2;
@@ -657,24 +657,24 @@
      font-size: $button_font_size+$button_font_size_increment*19rem;
      letter-spacing: -.1rem;
      border: $button_border_2;
-  
+     
 }
-.evo-button-18 {
-     @extend .evo-button-18-base;
+%evo-button-18 {
+     @extend %evo-button-18-base;
      line-height: $button_line_height_2;
 }
-.evo-button-18-bold {
-     @extend .evo-button-18-base;
+%evo-button-18-bold {
+     @extend %evo-button-18-base;
      font-weight: bold;
      line-height: $button_line_height_2;
 }
-.evo-button-18-caps {
-     @extend .evo-button-18-base;
+%evo-button-18-caps {
+     @extend %evo-button-18-base;
      text-transform: uppercase;
      line-height: $button_line_height_2;
 }
-.evo-button-18-bold-caps {
-     @extend .evo-button-18-base;
+%evo-button-18-bold-caps {
+     @extend %evo-button-18-base;
      text-transform: uppercase;
      font-weight: bold;
      line-height: $button_line_height_2;
@@ -686,7 +686,7 @@
 
 /* BUTTON 19 */
 
-.evo-button-19-base {
+%evo-button-19-base {
      display:inline-block;
      padding-top: $button_padding_top+$button_padding_top_increment*(20*1.9rem)/2;
      padding-bottom: $button_padding_bottom+$button_padding_bottom_increment*(20*2rem)/2;
@@ -695,24 +695,24 @@
      font-size: $button_font_size+$button_font_size_increment*20rem;
      letter-spacing: -.1rem;
      border: $button_border_2;
-  
+     
 }
-.evo-button-19 {
-     @extend .evo-button-19-base;
+%evo-button-19 {
+     @extend %evo-button-19-base;
      line-height: $button_line_height_2;
 }
-.evo-button-19-bold {
-     @extend .evo-button-19-base;
+%evo-button-19-bold {
+     @extend %evo-button-19-base;
      font-weight: bold;
      line-height: $button_line_height_2;
 }
-.evo-button-19-caps {
-     @extend .evo-button-19-base;
+%evo-button-19-caps {
+     @extend %evo-button-19-base;
      text-transform: uppercase;
      line-height: $button_line_height_2;
 }
-.evo-button-19-bold-caps {
-     @extend .evo-button-19-base;
+%evo-button-19-bold-caps {
+     @extend %evo-button-19-base;
      text-transform: uppercase;
      font-weight: bold;
      line-height: $button_line_height_2;
@@ -724,7 +724,7 @@
 
 /* BUTTON 20 */
 
-.evo-button-20-base {
+%evo-button-20-base {
      display:inline-block;
      padding-top: $button_padding_top+$button_padding_top_increment*(21*1.95rem)/2;
      padding-bottom: $button_padding_bottom+$button_padding_bottom_increment*(21*2rem)/2;
@@ -733,24 +733,24 @@
      font-size: $button_font_size+$button_font_size_increment*21rem;
      letter-spacing: -.1rem;
      border: $button_border_2;
-  
+     
 }
-.evo-button-20 {
-     @extend .evo-button-20-base;
+%evo-button-20 {
+     @extend %evo-button-20-base;
      line-height: $button_line_height_2;
 }
-.evo-button-20-bold {
-     @extend .evo-button-20-base;
+%evo-button-20-bold {
+     @extend %evo-button-20-base;
      font-weight: bold;
      line-height: $button_line_height_2;
 }
-.evo-button-20-caps {
-     @extend .evo-button-20-base;
+%evo-button-20-caps {
+     @extend %evo-button-20-base;
      text-transform: uppercase;
      line-height: $button_line_height_2;
 }
-.evo-button-20-bold-caps {
-     @extend .evo-button-20-base;
+%evo-button-20-bold-caps {
+     @extend %evo-button-20-base;
      text-transform: uppercase;
      font-weight: bold;
      line-height: $button_line_height_2;
@@ -762,7 +762,7 @@
 
 /* BUTTON 21 */
 
-.evo-button-21-base {
+%evo-button-21-base {
      display:inline-block;
      padding-top: $button_padding_top+$button_padding_top_increment*(22*1.95rem)/2;
      padding-bottom: $button_padding_bottom+$button_padding_bottom_increment*(22*2rem)/2;
@@ -771,24 +771,24 @@
      font-size: $button_font_size+$button_font_size_increment*22rem;
      letter-spacing: -.1rem;
      border: $button_border_2;
-  
+     
 }
-.evo-button-21 {
-     @extend .evo-button-21-base;
+%evo-button-21 {
+     @extend %evo-button-21-base;
      line-height: $button_line_height_2;
 }
-.evo-button-21-bold {
-     @extend .evo-button-21-base;
+%evo-button-21-bold {
+     @extend %evo-button-21-base;
      font-weight: bold;
      line-height: $button_line_height_2;
 }
-.evo-button-21-caps {
-     @extend .evo-button-21-base;
+%evo-button-21-caps {
+     @extend %evo-button-21-base;
      text-transform: uppercase;
      line-height: $button_line_height_2;
 }
-.evo-button-21-bold-caps {
-     @extend .evo-button-21-base;
+%evo-button-21-bold-caps {
+     @extend %evo-button-21-base;
      text-transform: uppercase;
      font-weight: bold;
      line-height: $button_line_height_2;
@@ -800,7 +800,7 @@
 
 /* BUTTON 22 */
 
-.evo-button-22-base {
+%evo-button-22-base {
      display:inline-block;
      padding-top: $button_padding_top+$button_padding_top_increment*(23*2.1rem)/2;
      padding-bottom: $button_padding_bottom+$button_padding_bottom_increment*(23*2.15rem)/2;
@@ -809,24 +809,24 @@
      font-size: $button_font_size+$button_font_size_increment*23rem;
      letter-spacing: -.1rem;
      border: $button_border_2;
-  
+     
 }
-.evo-button-22 {
-     @extend .evo-button-22-base;
+%evo-button-22 {
+     @extend %evo-button-22-base;
      line-height: $button_line_height_2;
 }
-.evo-button-22-bold {
-     @extend .evo-button-22-base;
+%evo-button-22-bold {
+     @extend %evo-button-22-base;
      font-weight: bold;
      line-height: $button_line_height_2;
 }
-.evo-button-22-caps {
-     @extend .evo-button-22-base;
+%evo-button-22-caps {
+     @extend %evo-button-22-base;
      text-transform: uppercase;
      line-height: $button_line_height_2;
 }
-.evo-button-22-bold-caps {
-     @extend .evo-button-22-base;
+%evo-button-22-bold-caps {
+     @extend %evo-button-22-base;
      text-transform: uppercase;
      font-weight: bold;
      line-height: $button_line_height_2;
@@ -838,7 +838,7 @@
 
 /* BUTTON 23 */
 
-.evo-button-23-base {
+%evo-button-23-base {
      display:inline-block;
      padding-top: $button_padding_top+$button_padding_top_increment*(24*2.15rem)/2;
      padding-bottom: $button_padding_bottom+$button_padding_bottom_increment*(24*2.20rem)/2;
@@ -847,24 +847,24 @@
      font-size: $button_font_size+$button_font_size_increment*24rem;
      letter-spacing: -.1rem;
      border: $button_border_2;
-  
+     
 }
-.evo-button-23 {
-     @extend .evo-button-23-base;
+%evo-button-23 {
+     @extend %evo-button-23-base;
      line-height: $button_line_height_2;
 }
-.evo-button-23-bold {
-     @extend .evo-button-23-base;
+%evo-button-23-bold {
+     @extend %evo-button-23-base;
      font-weight: bold;
      line-height: $button_line_height_2;
 }
-.evo-button-23-caps {
-     @extend .evo-button-23-base;
+%evo-button-23-caps {
+     @extend %evo-button-23-base;
      text-transform: uppercase;
      line-height: $button_line_height_2;
 }
-.evo-button-23-bold-caps {
-     @extend .evo-button-23-base;
+%evo-button-23-bold-caps {
+     @extend %evo-button-23-base;
      text-transform: uppercase;
      font-weight: bold;
      line-height: $button_line_height_2;
@@ -876,7 +876,7 @@
 
 /* BUTTON 24 */
 
-.evo-button-24-base {
+%evo-button-24-base {
      display:inline-block;
      padding-top: $button_padding_top+$button_padding_top_increment*(25*2.2rem)/2;
      padding-bottom: $button_padding_bottom+$button_padding_bottom_increment*(25*2.25rem)/2;
@@ -885,24 +885,24 @@
      font-size: $button_font_size+$button_font_size_increment*25rem;
      letter-spacing: -.1rem;
      border: $button_border_2;
-  
+     
 }
-.evo-button-24 {
-     @extend .evo-button-24-base;
+%evo-button-24 {
+     @extend %evo-button-24-base;
      line-height: $button_line_height_2;
 }
-.evo-button-24-bold {
-     @extend .evo-button-24-base;
+%evo-button-24-bold {
+     @extend %evo-button-24-base;
      font-weight: bold;
      line-height: $button_line_height_2;
 }
-.evo-button-24-caps {
-     @extend .evo-button-24-base;
+%evo-button-24-caps {
+     @extend %evo-button-24-base;
      text-transform: uppercase;
      line-height: $button_line_height_2;
 }
-.evo-button-24-bold-caps {
-     @extend .evo-button-24-base;
+%evo-button-24-bold-caps {
+     @extend %evo-button-24-base;
      text-transform: uppercase;
      font-weight: bold;
      line-height: $button_line_height_2;
@@ -914,7 +914,7 @@
 
 /* BUTTON 25 */
 
-.evo-button-25-base {
+%evo-button-25-base {
      display:inline-block;
      padding-top: $button_padding_top+$button_padding_top_increment*(26*2.2rem)/2;
      padding-bottom: $button_padding_bottom+$button_padding_bottom_increment*(26*2.25rem)/2;
@@ -923,24 +923,24 @@
      font-size: $button_font_size+$button_font_size_increment*26rem;
      letter-spacing: -.1rem;
      border: $button_border_3;
-  
+     
 }
-.evo-button-25 {
-     @extend .evo-button-25-base;
+%evo-button-25 {
+     @extend %evo-button-25-base;
      line-height: $button_line_height_3;
 }
-.evo-button-25-bold {
-     @extend .evo-button-25-base;
+%evo-button-25-bold {
+     @extend %evo-button-25-base;
      font-weight: bold;
      line-height: $button_line_height_3;
 }
-.evo-button-25-caps {
-     @extend .evo-button-25-base;
+%evo-button-25-caps {
+     @extend %evo-button-25-base;
      text-transform: uppercase;
      line-height: $button_line_height_3;
 }
-.evo-button-25-bold-caps {
-     @extend .evo-button-25-base;
+%evo-button-25-bold-caps {
+     @extend %evo-button-25-base;
      text-transform: uppercase;
      font-weight: bold;
      line-height: $button_line_height_3;
@@ -952,7 +952,7 @@
 
 /* BUTTON 26 */
 
-.evo-button-26-base {
+%evo-button-26-base {
      display:inline-block;
      padding-top: $button_padding_top+$button_padding_top_increment*(27*2.2rem)/2;
      padding-bottom: $button_padding_bottom+$button_padding_bottom_increment*(27*2.25rem)/2;
@@ -961,24 +961,24 @@
      font-size: $button_font_size+$button_font_size_increment*27rem;
      letter-spacing: -.1rem;
      border: $button_border_3;
-  
+     
 }
-.evo-button-26 {
-     @extend .evo-button-26-base;
+%evo-button-26 {
+     @extend %evo-button-26-base;
      line-height: $button_line_height_3;
 }
-.evo-button-26-bold {
-     @extend .evo-button-26-base;
+%evo-button-26-bold {
+     @extend %evo-button-26-base;
      font-weight: bold;
      line-height: $button_line_height_3;
 }
-.evo-button-26-caps {
-     @extend .evo-button-26-base;
+%evo-button-26-caps {
+     @extend %evo-button-26-base;
      text-transform: uppercase;
      line-height: $button_line_height_3;
 }
-.evo-button-26-bold-caps {
-     @extend .evo-button-26-base;
+%evo-button-26-bold-caps {
+     @extend %evo-button-26-base;
      text-transform: uppercase;
      font-weight: bold;
      line-height: $button_line_height_3;
@@ -990,7 +990,7 @@
 
 /* BUTTON 27 */
 
-.evo-button-27-base {
+%evo-button-27-base {
      display:inline-block;
      padding-top: $button_padding_top+$button_padding_top_increment*(28*2.25rem)/2;
      padding-bottom: $button_padding_bottom+$button_padding_bottom_increment*(28*2.3rem)/2;
@@ -999,24 +999,24 @@
      font-size: $button_font_size+$button_font_size_increment*28rem;
      letter-spacing: -.1rem;
      border: $button_border_3;
-  
+     
 }
-.evo-button-27 {
-     @extend .evo-button-27-base;
+%evo-button-27 {
+     @extend %evo-button-27-base;
      line-height: $button_line_height_3;
 }
-.evo-button-27-bold {
-     @extend .evo-button-27-base;
+%evo-button-27-bold {
+     @extend %evo-button-27-base;
      font-weight: bold;
      line-height: $button_line_height_3;
 }
-.evo-button-27-caps {
-     @extend .evo-button-27-base;
+%evo-button-27-caps {
+     @extend %evo-button-27-base;
      text-transform: uppercase;
      line-height: $button_line_height_3;
 }
-.evo-button-27-bold-caps {
-     @extend .evo-button-27-base;
+%evo-button-27-bold-caps {
+     @extend %evo-button-27-base;
      text-transform: uppercase;
      font-weight: bold;
      line-height: $button_line_height_3;
@@ -1028,7 +1028,7 @@
 
 /* BUTTON 28 */
 
-.evo-button-28-base {
+%evo-button-28-base {
      display:inline-block;
      padding-top: $button_padding_top+$button_padding_top_increment*(29*2.25rem)/2;
      padding-bottom: $button_padding_bottom+$button_padding_bottom_increment*(29*2.3rem)/2;
@@ -1037,24 +1037,24 @@
      font-size: $button_font_size+$button_font_size_increment*29rem;
      letter-spacing: -.1rem;
      border: $button_border_3;
-  
+     
 }
-.evo-button-28 {
-     @extend .evo-button-28-base;
+%evo-button-28 {
+     @extend %evo-button-28-base;
      line-height: $button_line_height_3;
 }
-.evo-button-28-bold {
-     @extend .evo-button-28-base;
+%evo-button-28-bold {
+     @extend %evo-button-28-base;
      font-weight: bold;
      line-height: $button_line_height_3;
 }
-.evo-button-28-caps {
-     @extend .evo-button-28-base;
+%evo-button-28-caps {
+     @extend %evo-button-28-base;
      text-transform: uppercase;
      line-height: $button_line_height_3;
 }
-.evo-button-28-bold-caps {
-     @extend .evo-button-28-base;
+%evo-button-28-bold-caps {
+     @extend %evo-button-28-base;
      text-transform: uppercase;
      font-weight: bold;
      line-height: $button_line_height_3;
@@ -1066,7 +1066,7 @@
 
 /* BUTTON 29 */
 
-.evo-button-29-base {
+%evo-button-29-base {
      display:inline-block;
      padding-top: $button_padding_top+$button_padding_top_increment*(30*2.3rem)/2;
      padding-bottom: $button_padding_bottom+$button_padding_bottom_increment*(30*2.3rem)/2;
@@ -1075,24 +1075,24 @@
      font-size: $button_font_size+$button_font_size_increment*30rem;
      letter-spacing: -.1rem;
      border: $button_border_3;
-  
+     
 }
-.evo-button-29 {
-     @extend .evo-button-29-base;
+%evo-button-29 {
+     @extend %evo-button-29-base;
      line-height: $button_line_height_3;
 }
-.evo-button-29-bold {
-     @extend .evo-button-29-base;
+%evo-button-29-bold {
+     @extend %evo-button-29-base;
      font-weight: bold;
      line-height: $button_line_height_3;
 }
-.evo-button-29-caps {
-     @extend .evo-button-29-base;
+%evo-button-29-caps {
+     @extend %evo-button-29-base;
      text-transform: uppercase;
      line-height: $button_line_height_3;
 }
-.evo-button-29-bold-caps {
-     @extend .evo-button-29-base;
+%evo-button-29-bold-caps {
+     @extend %evo-button-29-base;
      text-transform: uppercase;
      font-weight: bold;
      line-height: $button_line_height_3;
@@ -1104,7 +1104,7 @@
 
 /* BUTTON 30 */
 
-.evo-button-30-base {
+%evo-button-30-base {
      display:inline-block;
      padding-top: $button_padding_top+$button_padding_top_increment*(31*2.35rem)/2;
      padding-bottom: $button_padding_bottom+$button_padding_bottom_increment*(31*2.35rem)/2;
@@ -1115,22 +1115,22 @@
      border: $button_border_3;
      
 }
-.evo-button-30 {
-     @extend .evo-button-30-base;
+%evo-button-30 {
+     @extend %evo-button-30-base;
      line-height: $button_line_height_3;
 }
-.evo-button-30-bold {
-     @extend .evo-button-30-base;
+%evo-button-30-bold {
+     @extend %evo-button-30-base;
      font-weight: bold;
      line-height: $button_line_height_3;
 }
-.evo-button-30-caps {
-     @extend .evo-button-30-base;
+%evo-button-30-caps {
+     @extend %evo-button-30-base;
      text-transform: uppercase;
      line-height: $button_line_height_3;
 }
-.evo-button-30-bold-caps {
-     @extend .evo-button-30-base;
+%evo-button-30-bold-caps {
+     @extend %evo-button-30-base;
      text-transform: uppercase;
      font-weight: bold;
      line-height: $button_line_height_3;
