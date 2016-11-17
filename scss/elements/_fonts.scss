@@ -12,11 +12,10 @@
 
 // --------------------------- WEB SAFE FONTS --------------------------- 
 
-.evo-font-arial,
-%evo-font-arial                       { font-family: $font_stack_arial !important; }
-%evo-font-georgia                     { font-family: $font_stack_georgia !important; }
-%evo-font-times-new-roman             { font-family: $font_stack_times_new_roman !important; }
-%evo-font-courier-new                 { font-family: $font_stack_courier_new !important; }
+.evo-font-arial                       { font-family: $font_stack_arial !important; }
+.evo-font-georgia                     { font-family: $font_stack_georgia !important; }
+.evo-font-times-new-roman             { font-family: $font_stack_times_new_roman !important; }
+.evo-font-courier-new                 { font-family: $font_stack_courier_new !important; }
 
 // Font stacks referenced from http://www.cssfontstack.com/
 
@@ -29,8 +28,8 @@
 
 // --------------------------- FASHION INSPIRED FONTS --------------------------- 
 
-%evo-font-helvetica-neue              { font-family: $font_stack_helvetica_neue; }
-%evo-font-helvetica-neue-thin         { font-family: $font_stack_helvetica_neue_thin; }
+.evo-font-helvetica-neue              { font-family: $font_stack_helvetica_neue; }
+.evo-font-helvetica-neue-thin         { font-family: $font_stack_helvetica_neue_thin; }
 
 
 // didot here
@@ -38,7 +37,7 @@
 
 // --------------------------- GOOGLE FONTS --------------------------- 
 
-// %evo-font-open-sans                 { font-family: $font_stack_open_sans !important; }
+// Place go-to google fonts here
 
 // --------------------------- FONT SQUIRREL --------------------------- 
 
